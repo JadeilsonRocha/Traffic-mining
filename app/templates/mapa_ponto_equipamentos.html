@@ -1,0 +1,4846 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS = false; L_NO_TOUCH = false; L_DISABLE_3D = false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawgit.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <style> #map_6b1282e282e843c8b2f2bd149c31eca9 {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+                }
+            </style>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+    <script src="https://cdn.rawgit.com/Leaflet/Leaflet.draw/v0.4.12/dist/leaflet.draw.js"></script>
+    <link rel="stylesheet" href="https://cdn.rawgit.com/Leaflet/Leaflet.draw/v0.4.12/dist/leaflet.draw.css"/>
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_6b1282e282e843c8b2f2bd149c31eca9" ></div>
+        
+</body>
+<script>    
+    
+
+            
+                var bounds = null;
+            
+
+            var map_6b1282e282e843c8b2f2bd149c31eca9 = L.map(
+                                  'map_6b1282e282e843c8b2f2bd149c31eca9',
+                                  {center: [-8.05428,-34.8813],
+                                  zoom: 12,
+                                  maxBounds: bounds,
+                                  layers: [],
+                                  worldCopyJump: false,
+                                  crs: L.CRS.EPSG3857
+                                 });
+            
+        
+    
+            var tile_layer_d3cd1b734368496993ef034dc00fe354 = L.tileLayer(
+                'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+                {
+  "attribution": null,
+  "detectRetina": false,
+  "maxZoom": 18,
+  "minZoom": 1,
+  "noWrap": false,
+  "subdomains": "abc"
+}
+                ).addTo(map_6b1282e282e843c8b2f2bd149c31eca9);
+        
+    
+            var marker_cluster_2385baaac5634d7cae39078627b54e2c = L.markerClusterGroup({
+                
+            });
+            map_6b1282e282e843c8b2f2bd149c31eca9.addLayer(marker_cluster_2385baaac5634d7cae39078627b54e2c);
+            
+    
+
+            var marker_226d447ae8044d7b9cda55b5cb164bee = L.marker(
+                [-8.130088,-34.915644],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_2385baaac5634d7cae39078627b54e2c);
+            
+    
+
+                var icon_020ca19e8e6847cab12124b4b71d3476 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_226d447ae8044d7b9cda55b5cb164bee.setIcon(icon_020ca19e8e6847cab12124b4b71d3476);
+            
+    
+            var popup_4275a21852b14d2b91468d463e0bb4e7 = L.popup({maxWidth: '300'});
+
+            
+                var html_589169e3ace444d6837519bb4f28de36 = $('<div id="html_589169e3ace444d6837519bb4f28de36" style="width: 100.0%; height: 100.0%;">AV. MASCARENHAS DE MORAES - PROX. AEROPORTO - SENTIDO PRAZERES (...LOMBADA ELETRÔNICA/CÂMERA DE MONITORAMENTO...)</div>')[0];
+                popup_4275a21852b14d2b91468d463e0bb4e7.setContent(html_589169e3ace444d6837519bb4f28de36);
+            
+
+            marker_226d447ae8044d7b9cda55b5cb164bee.bindPopup(popup_4275a21852b14d2b91468d463e0bb4e7);
+
+            
+        
+    
+
+            var marker_01cea9c39a594e7ab774a60ab199ccbb = L.marker(
+                [-8.070851,-34.896097],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_2385baaac5634d7cae39078627b54e2c);
+            
+    
+
+                var icon_25e2bfb5ad1c4c3d94ec98791e67dd14 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_01cea9c39a594e7ab774a60ab199ccbb.setIcon(icon_25e2bfb5ad1c4c3d94ec98791e67dd14);
+            
+    
+            var popup_9ffca3972ed14c4a87fc6b8bd15f8331 = L.popup({maxWidth: '300'});
+
+            
+                var html_85a55c416832460ba99e2821d8ce7fe6 = $('<div id="html_85a55c416832460ba99e2821d8ce7fe6" style="width: 100.0%; height: 100.0%;">VIADUTO CAP. TEMUDO (...CAMERA MONITORAMENTO...)</div>')[0];
+                popup_9ffca3972ed14c4a87fc6b8bd15f8331.setContent(html_85a55c416832460ba99e2821d8ce7fe6);
+            
+
+            marker_01cea9c39a594e7ab774a60ab199ccbb.bindPopup(popup_9ffca3972ed14c4a87fc6b8bd15f8331);
+
+            
+        
+    
+
+            var marker_c2d768717a984074983565d6e021e3c9 = L.marker(
+                [-8.106849,-34.927318],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_2385baaac5634d7cae39078627b54e2c);
+            
+    
+
+                var icon_60a29457706f45189dbb9fd66a868d1e = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_c2d768717a984074983565d6e021e3c9.setIcon(icon_60a29457706f45189dbb9fd66a868d1e);
+            
+    
+            var popup_f9da220d20e04fd89a08047b87100eaf = L.popup({maxWidth: '300'});
+
+            
+                var html_36a154d48df24f97b9fd9deae1a536db = $('<div id="html_36a154d48df24f97b9fd9deae1a536db" style="width: 100.0%; height: 100.0%;">AV. RECIFE x ENTRADA DO IBURA (...CAMERA MONITORAMENTO...)</div>')[0];
+                popup_f9da220d20e04fd89a08047b87100eaf.setContent(html_36a154d48df24f97b9fd9deae1a536db);
+            
+
+            marker_c2d768717a984074983565d6e021e3c9.bindPopup(popup_f9da220d20e04fd89a08047b87100eaf);
+
+            
+        
+    
+
+            var marker_9aaaac8f214b4e368a6973667f7ce439 = L.marker(
+                [-8.119552,-34.896644],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_2385baaac5634d7cae39078627b54e2c);
+            
+    
+
+                var icon_974d551e658a48cdbbd0d0e1a46a2d37 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_9aaaac8f214b4e368a6973667f7ce439.setIcon(icon_974d551e658a48cdbbd0d0e1a46a2d37);
+            
+    
+            var popup_fde0c40ecadc4f71b2ea9e8b449e5a56 = L.popup({maxWidth: '300'});
+
+            
+                var html_a4407fe76dd840cbac819f8c65d515bb = $('<div id="html_a4407fe76dd840cbac819f8c65d515bb" style="width: 100.0%; height: 100.0%;">AV. CONSELHEIRO AGUIAR X RUA PE. CARAPUCEIRO (...CAMERA MONITORAMENTO...)</div>')[0];
+                popup_fde0c40ecadc4f71b2ea9e8b449e5a56.setContent(html_a4407fe76dd840cbac819f8c65d515bb);
+            
+
+            marker_9aaaac8f214b4e368a6973667f7ce439.bindPopup(popup_fde0c40ecadc4f71b2ea9e8b449e5a56);
+
+            
+        
+    
+
+            var marker_b8a0a0ee0a7946ceb9243bab4e0aa77e = L.marker(
+                [-8.085446,-34.886623],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_2385baaac5634d7cae39078627b54e2c);
+            
+    
+
+                var icon_059b9c2be073485db1a3f5f48920b255 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_b8a0a0ee0a7946ceb9243bab4e0aa77e.setIcon(icon_059b9c2be073485db1a3f5f48920b255);
+            
+    
+            var popup_e0c2749c9732427191f0909abc81d385 = L.popup({maxWidth: '300'});
+
+            
+                var html_97c32510e4ca42a3aeec0661e4ca8fcc = $('<div id="html_97c32510e4ca42a3aeec0661e4ca8fcc" style="width: 100.0%; height: 100.0%;">AV. ENG. ANTONIO DE GOES (...CAMERA MONITORAMENTO...)</div>')[0];
+                popup_e0c2749c9732427191f0909abc81d385.setContent(html_97c32510e4ca42a3aeec0661e4ca8fcc);
+            
+
+            marker_b8a0a0ee0a7946ceb9243bab4e0aa77e.bindPopup(popup_e0c2749c9732427191f0909abc81d385);
+
+            
+        
+    
+
+            var marker_858777fdcdd14f909522919324af3909 = L.marker(
+                [-8.087868,-34.886119],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_2385baaac5634d7cae39078627b54e2c);
+            
+    
+
+                var icon_08a5d18d1e7a41daba5154742f6494a5 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_858777fdcdd14f909522919324af3909.setIcon(icon_08a5d18d1e7a41daba5154742f6494a5);
+            
+    
+            var popup_ddd002a224084ed89215b72e19db3c69 = L.popup({maxWidth: '300'});
+
+            
+                var html_031deed1faee40e481d92a6c8fd0e8a9 = $('<div id="html_031deed1faee40e481d92a6c8fd0e8a9" style="width: 100.0%; height: 100.0%;">AV. HERCULANO BANDEIRA - EM FRENTE A IGREJA DO PINA (...FISC. ELET. SEMÁFORO/CAMERA MONITORAMENTO...)</div>')[0];
+                popup_ddd002a224084ed89215b72e19db3c69.setContent(html_031deed1faee40e481d92a6c8fd0e8a9);
+            
+
+            marker_858777fdcdd14f909522919324af3909.bindPopup(popup_ddd002a224084ed89215b72e19db3c69);
+
+            
+        
+    
+
+            var marker_b91f7d70419543a7aed300301af3428e = L.marker(
+                [-8.074837,-34.890175],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_2385baaac5634d7cae39078627b54e2c);
+            
+    
+
+                var icon_cd8a7eae7b584152b4ebf71a0242dbd5 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_b91f7d70419543a7aed300301af3428e.setIcon(icon_cd8a7eae7b584152b4ebf71a0242dbd5);
+            
+    
+            var popup_4d89537533834d70aecf1530665a425d = L.popup({maxWidth: '300'});
+
+            
+                var html_4baa23e7bb3d42f0bcdf84c607321b76 = $('<div id="html_4baa23e7bb3d42f0bcdf84c607321b76" style="width: 100.0%; height: 100.0%;">AV. SUL (...FISC. ELET. SEMÁFORO/CAMERA MONITORAMENTO...)</div>')[0];
+                popup_4d89537533834d70aecf1530665a425d.setContent(html_4baa23e7bb3d42f0bcdf84c607321b76);
+            
+
+            marker_b91f7d70419543a7aed300301af3428e.bindPopup(popup_4d89537533834d70aecf1530665a425d);
+
+            
+        
+    
+
+            var marker_a6def4e530ce49a594f67dc5ea3045db = L.marker(
+                [-8.092117,-34.882085],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_2385baaac5634d7cae39078627b54e2c);
+            
+    
+
+                var icon_988b56a0709646bc811edd625e1ef5ca = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_a6def4e530ce49a594f67dc5ea3045db.setIcon(icon_988b56a0709646bc811edd625e1ef5ca);
+            
+    
+            var popup_20cc9589ada2477aa390b0f05e8ab75b = L.popup({maxWidth: '300'});
+
+            
+                var html_8154d3d6c52245c899350a34b0004941 = $('<div id="html_8154d3d6c52245c899350a34b0004941" style="width: 100.0%; height: 100.0%;">AV. BOA VIAGEM X AV. HERCULANO BANDEIRA (...FISC. ELET. SEMÁFORO/CAMERA MONITORAMENTO...)</div>')[0];
+                popup_20cc9589ada2477aa390b0f05e8ab75b.setContent(html_8154d3d6c52245c899350a34b0004941);
+            
+
+            marker_a6def4e530ce49a594f67dc5ea3045db.bindPopup(popup_20cc9589ada2477aa390b0f05e8ab75b);
+
+            
+        
+    
+
+            var marker_5eea33281f6f45c3a873b54b514493d0 = L.marker(
+                [-8.1299,-34.9019],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_2385baaac5634d7cae39078627b54e2c);
+            
+    
+
+                var icon_67a19e16c0174f599e58899f6c70a5d9 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_5eea33281f6f45c3a873b54b514493d0.setIcon(icon_67a19e16c0174f599e58899f6c70a5d9);
+            
+    
+            var popup_5d45b7f87d444897b55feb45141918ba = L.popup({maxWidth: '300'});
+
+            
+                var html_ac0c49291d784043af810b1ad5f801cc = $('<div id="html_ac0c49291d784043af810b1ad5f801cc" style="width: 100.0%; height: 100.0%;">GIT-Vias - Sem. 444 (Av. Domingos Ferreira) (...FISC. ELET. SEMÁFORO/CAMERA MONITORAMENTO...)</div>')[0];
+                popup_5d45b7f87d444897b55feb45141918ba.setContent(html_ac0c49291d784043af810b1ad5f801cc);
+            
+
+            marker_5eea33281f6f45c3a873b54b514493d0.bindPopup(popup_5d45b7f87d444897b55feb45141918ba);
+
+            
+        
+    
+
+            var marker_6e8226c066114e69aa6f1f21501396a5 = L.marker(
+                [-8.13012,-34.90321],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_2385baaac5634d7cae39078627b54e2c);
+            
+    
+
+                var icon_ef1f244057e045b98c6bb6c935120543 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_6e8226c066114e69aa6f1f21501396a5.setIcon(icon_ef1f244057e045b98c6bb6c935120543);
+            
+    
+            var popup_207fefbdffdf493dbf450150b108c466 = L.popup({maxWidth: '300'});
+
+            
+                var html_8a702331f2ce415294c9cfdbde668de0 = $('<div id="html_8a702331f2ce415294c9cfdbde668de0" style="width: 100.0%; height: 100.0%;">AV. JEQUITINHONHA (...FISC. ELET. SEMÁFORO/CAMERA MONITORAMENTO...)</div>')[0];
+                popup_207fefbdffdf493dbf450150b108c466.setContent(html_8a702331f2ce415294c9cfdbde668de0);
+            
+
+            marker_6e8226c066114e69aa6f1f21501396a5.bindPopup(popup_207fefbdffdf493dbf450150b108c466);
+
+            
+        
+    
+
+            var marker_416c31aa5645476984805d51824b4236 = L.marker(
+                [-8.063066,-34.873338],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_2385baaac5634d7cae39078627b54e2c);
+            
+    
+
+                var icon_3a2a6187aaab41a683db42b9c9c46912 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_416c31aa5645476984805d51824b4236.setIcon(icon_3a2a6187aaab41a683db42b9c9c46912);
+            
+    
+            var popup_88e2f244a971471fb5ba95be90f65852 = L.popup({maxWidth: '300'});
+
+            
+                var html_263fce48741e45bba429315b75b17061 = $('<div id="html_263fce48741e45bba429315b75b17061" style="width: 100.0%; height: 100.0%;">RUA MADRE DE DEUS X RUA MARQUÊS DE OLINDA (...FISC. ELET. SEMÁFORO/CAMERA MONITORAMENTO...)</div>')[0];
+                popup_88e2f244a971471fb5ba95be90f65852.setContent(html_263fce48741e45bba429315b75b17061);
+            
+
+            marker_416c31aa5645476984805d51824b4236.bindPopup(popup_88e2f244a971471fb5ba95be90f65852);
+
+            
+        
+    
+
+            var marker_6a3ec45f6fe9444c8c13c735840b4f8f = L.marker(
+                [-8.104986,-34.88961],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_2385baaac5634d7cae39078627b54e2c);
+            
+    
+
+                var icon_82df545441f44629a2224f16dfd5d5d2 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_6a3ec45f6fe9444c8c13c735840b4f8f.setIcon(icon_82df545441f44629a2224f16dfd5d5d2);
+            
+    
+            var popup_9e119fdeb9904b63943b9b61db4698c5 = L.popup({maxWidth: '300'});
+
+            
+                var html_5057f74256b94895a0313143057121ca = $('<div id="html_5057f74256b94895a0313143057121ca" style="width: 100.0%; height: 100.0%;">GIT-Vias - Sem. 397 (Av. Domingos Ferreira) (...FISC. ELET. SEMÁFORO/CAMERA MONITORAMENTO...)</div>')[0];
+                popup_9e119fdeb9904b63943b9b61db4698c5.setContent(html_5057f74256b94895a0313143057121ca);
+            
+
+            marker_6a3ec45f6fe9444c8c13c735840b4f8f.bindPopup(popup_9e119fdeb9904b63943b9b61db4698c5);
+
+            
+        
+    
+
+            var marker_cbe6d69122934fe4846edf591b0c86e2 = L.marker(
+                [-8.060929,-34.883329],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_2385baaac5634d7cae39078627b54e2c);
+            
+    
+
+                var icon_0a08c169b18a4c8dbfc2f0a8bc4fd1ac = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_cbe6d69122934fe4846edf591b0c86e2.setIcon(icon_0a08c169b18a4c8dbfc2f0a8bc4fd1ac);
+            
+    
+            var popup_8df43d854ce349e885316f99f3691998 = L.popup({maxWidth: '300'});
+
+            
+                var html_0785ec472689441e8281c8fac4374ef1 = $('<div id="html_0785ec472689441e8281c8fac4374ef1" style="width: 100.0%; height: 100.0%;">GIT-Vias - Sem. 486 (Av. Cde. da Boa Vista) Sentido Derby (...FISC. ELET. SEMÁFORO...)</div>')[0];
+                popup_8df43d854ce349e885316f99f3691998.setContent(html_0785ec472689441e8281c8fac4374ef1);
+            
+
+            marker_cbe6d69122934fe4846edf591b0c86e2.bindPopup(popup_8df43d854ce349e885316f99f3691998);
+
+            
+        
+    
+
+            var marker_af291fc0637a4046a38a6c24673f9526 = L.marker(
+                [-8.061184,-34.883673],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_2385baaac5634d7cae39078627b54e2c);
+            
+    
+
+                var icon_7730fdf0c2cf40f1972844161e0f292f = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_af291fc0637a4046a38a6c24673f9526.setIcon(icon_7730fdf0c2cf40f1972844161e0f292f);
+            
+    
+            var popup_572329d5110f4970a400bf3adaed5911 = L.popup({maxWidth: '300'});
+
+            
+                var html_349bb66b6f4d4b048bc24af208bd0ce4 = $('<div id="html_349bb66b6f4d4b048bc24af208bd0ce4" style="width: 100.0%; height: 100.0%;">GIT-Vias - Sem. 486 (Av. Cde. da Boa Vista) Sentido Guararapes (...FISC. ELET. SEMÁFORO...)</div>')[0];
+                popup_572329d5110f4970a400bf3adaed5911.setContent(html_349bb66b6f4d4b048bc24af208bd0ce4);
+            
+
+            marker_af291fc0637a4046a38a6c24673f9526.bindPopup(popup_572329d5110f4970a400bf3adaed5911);
+
+            
+        
+    
+
+            var marker_3f002165baf24387b9410d3eaae7371a = L.marker(
+                [-8.048771,-34.878051],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_2385baaac5634d7cae39078627b54e2c);
+            
+    
+
+                var icon_2ac40cbf24184137b028e7bd8dfb3da2 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_3f002165baf24387b9410d3eaae7371a.setIcon(icon_2ac40cbf24184137b028e7bd8dfb3da2);
+            
+    
+            var popup_f00392cd154844c1a015963d9a67612c = L.popup({maxWidth: '300'});
+
+            
+                var html_cdd8eeb4fb9e44ebab327c4589279dbf = $('<div id="html_cdd8eeb4fb9e44ebab327c4589279dbf" style="width: 100.0%; height: 100.0%;">AV. CRUZ CABUGÁ (...FISC. ELET. SEMÁFORO/CAMERA MONITORAMENTO...)</div>')[0];
+                popup_f00392cd154844c1a015963d9a67612c.setContent(html_cdd8eeb4fb9e44ebab327c4589279dbf);
+            
+
+            marker_3f002165baf24387b9410d3eaae7371a.bindPopup(popup_f00392cd154844c1a015963d9a67612c);
+
+            
+        
+    
+
+            var marker_1b487da703274d9196d778f008feb83e = L.marker(
+                [-8.038281,-34.891633],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_2385baaac5634d7cae39078627b54e2c);
+            
+    
+
+                var icon_b5e78ca95d154eb4a5c40c9057270c12 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_1b487da703274d9196d778f008feb83e.setIcon(icon_b5e78ca95d154eb4a5c40c9057270c12);
+            
+    
+            var popup_521a58a9be5a4c2ab6115ec97dc1a613 = L.popup({maxWidth: '300'});
+
+            
+                var html_ec8ef6b577734ba1a2c39532b88bf93e = $('<div id="html_ec8ef6b577734ba1a2c39532b88bf93e" style="width: 100.0%; height: 100.0%;">AV. NORTE X AV. JOÃO DE BARROS (...FISC. ELET. SEMÁFORO/CAMERA MONITORAMENTO...)</div>')[0];
+                popup_521a58a9be5a4c2ab6115ec97dc1a613.setContent(html_ec8ef6b577734ba1a2c39532b88bf93e);
+            
+
+            marker_1b487da703274d9196d778f008feb83e.bindPopup(popup_521a58a9be5a4c2ab6115ec97dc1a613);
+
+            
+        
+    
+
+            var marker_130dc3a2f86c49e499565d1e0043a145 = L.marker(
+                [-8.038621,-34.892578],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_2385baaac5634d7cae39078627b54e2c);
+            
+    
+
+                var icon_ae86e89ee1ae46aebdfe6994f331762d = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_130dc3a2f86c49e499565d1e0043a145.setIcon(icon_ae86e89ee1ae46aebdfe6994f331762d);
+            
+    
+            var popup_e3f771d5aaa64ec38a8e4d59f5e96d9c = L.popup({maxWidth: '300'});
+
+            
+                var html_09d39c549eea40a7b938533e02ac1bae = $('<div id="html_09d39c549eea40a7b938533e02ac1bae" style="width: 100.0%; height: 100.0%;">AV. NORTE X AV. JOÃO DE BARROS (...FISC. ELET. SEMÁFORO...)</div>')[0];
+                popup_e3f771d5aaa64ec38a8e4d59f5e96d9c.setContent(html_09d39c549eea40a7b938533e02ac1bae);
+            
+
+            marker_130dc3a2f86c49e499565d1e0043a145.bindPopup(popup_e3f771d5aaa64ec38a8e4d59f5e96d9c);
+
+            
+        
+    
+
+            var marker_89d90f2e351c4c9a9aa2f14ba411d5a3 = L.marker(
+                [-8.092992,-34.943255],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_2385baaac5634d7cae39078627b54e2c);
+            
+    
+
+                var icon_082df7eaca4c44f79f67761e65f1db90 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_89d90f2e351c4c9a9aa2f14ba411d5a3.setIcon(icon_082df7eaca4c44f79f67761e65f1db90);
+            
+    
+            var popup_ee99986a66bb4f1bb0c55155305424e9 = L.popup({maxWidth: '300'});
+
+            
+                var html_8b219fc92da94a3fa868c9b20ed1fc64 = $('<div id="html_8b219fc92da94a3fa868c9b20ed1fc64" style="width: 100.0%; height: 100.0%;">AV. DR. JOSÉ RUFINO - PROX A IGREJA DO BARRO (...FISC. ELET. SEMÁFORO/CAMERA MONITORAMENTO...)</div>')[0];
+                popup_ee99986a66bb4f1bb0c55155305424e9.setContent(html_8b219fc92da94a3fa868c9b20ed1fc64);
+            
+
+            marker_89d90f2e351c4c9a9aa2f14ba411d5a3.bindPopup(popup_ee99986a66bb4f1bb0c55155305424e9);
+
+            
+        
+    
+
+            var marker_55d1eb0716184782b98276b2d45c896f = L.marker(
+                [-8.092627,-34.942574],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_2385baaac5634d7cae39078627b54e2c);
+            
+    
+
+                var icon_2e1338f519b44f288669de53d926699b = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_55d1eb0716184782b98276b2d45c896f.setIcon(icon_2e1338f519b44f288669de53d926699b);
+            
+    
+            var popup_a806c4e2afeb48248337faee1bdf1dfb = L.popup({maxWidth: '300'});
+
+            
+                var html_2112e875c7744f67b130f7feb0b492a8 = $('<div id="html_2112e875c7744f67b130f7feb0b492a8" style="width: 100.0%; height: 100.0%;">AV. DR. JOSÉ RUFINO - PROX A IGREJA DO BARRO (...FISC. ELET. SEMÁFORO...)</div>')[0];
+                popup_a806c4e2afeb48248337faee1bdf1dfb.setContent(html_2112e875c7744f67b130f7feb0b492a8);
+            
+
+            marker_55d1eb0716184782b98276b2d45c896f.bindPopup(popup_a806c4e2afeb48248337faee1bdf1dfb);
+
+            
+        
+    
+
+            var marker_48f987d64cc7402f9ef3dbf89b7091f8 = L.marker(
+                [-8.062417,-34.897237],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_2385baaac5634d7cae39078627b54e2c);
+            
+    
+
+                var icon_e6da4f7f469f4804ad824895e1e700b0 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_48f987d64cc7402f9ef3dbf89b7091f8.setIcon(icon_e6da4f7f469f4804ad824895e1e700b0);
+            
+    
+            var popup_ea434e4a1e9448de90907608b8623cda = L.popup({maxWidth: '300'});
+
+            
+                var html_cc6bb4dfd1bf410ca911b105df4e7ac8 = $('<div id="html_cc6bb4dfd1bf410ca911b105df4e7ac8" style="width: 100.0%; height: 100.0%;">Semáforo 069 - av. Gov. Agamenon Magalhães x rua Gal. Joaquim Inácio (...FISC. ELET. SEMÁFORO/CAMERA MONITORAMENTO...)</div>')[0];
+                popup_ea434e4a1e9448de90907608b8623cda.setContent(html_cc6bb4dfd1bf410ca911b105df4e7ac8);
+            
+
+            marker_48f987d64cc7402f9ef3dbf89b7091f8.bindPopup(popup_ea434e4a1e9448de90907608b8623cda);
+
+            
+        
+    
+
+            var marker_f0cd01f9f61648369fc916d9d69e19fd = L.marker(
+                [-8.063755,-34.897593],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_2385baaac5634d7cae39078627b54e2c);
+            
+    
+
+                var icon_d99635a0f01c4a518a59184452bcb3c1 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_f0cd01f9f61648369fc916d9d69e19fd.setIcon(icon_d99635a0f01c4a518a59184452bcb3c1);
+            
+    
+            var popup_22f47a23e5f648e9aa9aa93893793ea5 = L.popup({maxWidth: '300'});
+
+            
+                var html_7a052e8b18584219a181d38b8dc65269 = $('<div id="html_7a052e8b18584219a181d38b8dc65269" style="width: 100.0%; height: 100.0%;">Semáforo 069 - av. Gov. Agamenon Magalhães x rua Paissandu (...FISC. ELET. SEMÁFORO/CAMERA MONITORAMENTO...)</div>')[0];
+                popup_22f47a23e5f648e9aa9aa93893793ea5.setContent(html_7a052e8b18584219a181d38b8dc65269);
+            
+
+            marker_f0cd01f9f61648369fc916d9d69e19fd.bindPopup(popup_22f47a23e5f648e9aa9aa93893793ea5);
+
+            
+        
+    
+
+            var marker_6c58cde4d8c644e1a399aeecdef7750f = L.marker(
+                [-8.049021,-34.892867],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_2385baaac5634d7cae39078627b54e2c);
+            
+    
+
+                var icon_41ae5c964dcc495bb3680a96fd7a823c = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_6c58cde4d8c644e1a399aeecdef7750f.setIcon(icon_41ae5c964dcc495bb3680a96fd7a823c);
+            
+    
+            var popup_8e7dade8c25a498e8257259d1ba59658 = L.popup({maxWidth: '300'});
+
+            
+                var html_21e7cfc98f834d31b28e27a97367bf27 = $('<div id="html_21e7cfc98f834d31b28e27a97367bf27" style="width: 100.0%; height: 100.0%;">Semáforo 078 - av. Gov. Agamenon Magalhães x rua Dr. Leopoldo Lins (...FISC. ELET. SEMÁFORO/CAMERA MONITORAMENTO...)</div>')[0];
+                popup_8e7dade8c25a498e8257259d1ba59658.setContent(html_21e7cfc98f834d31b28e27a97367bf27);
+            
+
+            marker_6c58cde4d8c644e1a399aeecdef7750f.bindPopup(popup_8e7dade8c25a498e8257259d1ba59658);
+
+            
+        
+    
+
+            var marker_7751d108ad734f79bad5e5555524d94d = L.marker(
+                [-8.048097,-34.893136],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_2385baaac5634d7cae39078627b54e2c);
+            
+    
+
+                var icon_cec7d108353945cb9b9f1ed4870c57ba = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_7751d108ad734f79bad5e5555524d94d.setIcon(icon_cec7d108353945cb9b9f1ed4870c57ba);
+            
+    
+            var popup_0b9911b8966f4c2e94d2aea2c786c1d0 = L.popup({maxWidth: '300'});
+
+            
+                var html_015c2e7738a1419f825497c11087dee9 = $('<div id="html_015c2e7738a1419f825497c11087dee9" style="width: 100.0%; height: 100.0%;">Semáforo 078 - av. Gov. Agamenon Magalhães x rua Buenos Ayres (...FISC. ELET. SEMÁFORO/CAMERA MONITORAMENTO...)</div>')[0];
+                popup_0b9911b8966f4c2e94d2aea2c786c1d0.setContent(html_015c2e7738a1419f825497c11087dee9);
+            
+
+            marker_7751d108ad734f79bad5e5555524d94d.bindPopup(popup_0b9911b8966f4c2e94d2aea2c786c1d0);
+
+            
+        
+    
+
+            var marker_e1ddc546bcc644e2b510576dfaf34aef = L.marker(
+                [-8.063842,-34.935969],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_2385baaac5634d7cae39078627b54e2c);
+            
+    
+
+                var icon_5d0eb65b983f4707a3434c8da38de502 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_e1ddc546bcc644e2b510576dfaf34aef.setIcon(icon_5d0eb65b983f4707a3434c8da38de502);
+            
+    
+            var popup_52bf625c5fb34ae7adb988256476788b = L.popup({maxWidth: '300'});
+
+            
+                var html_f44bb19b92ec4c6882a8a518c1aec21a = $('<div id="html_f44bb19b92ec4c6882a8a518c1aec21a" style="width: 100.0%; height: 100.0%;">AVENIDA ENGº ABDIAS CARVALHO - PROX. N. 101 - SENTIDO BR-232 (...LOMBADA ELETRÔNICA/CÂMERA DE MONITORAMENTO...)</div>')[0];
+                popup_52bf625c5fb34ae7adb988256476788b.setContent(html_f44bb19b92ec4c6882a8a518c1aec21a);
+            
+
+            marker_e1ddc546bcc644e2b510576dfaf34aef.bindPopup(popup_52bf625c5fb34ae7adb988256476788b);
+
+            
+        
+    
+
+            var marker_210c38450b244ea5b96892a816912a1f = L.marker(
+                [-8.06364,-34.935493],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_2385baaac5634d7cae39078627b54e2c);
+            
+    
+
+                var icon_47c0f4c4ec9443e6b869b57c52200305 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_210c38450b244ea5b96892a816912a1f.setIcon(icon_47c0f4c4ec9443e6b869b57c52200305);
+            
+    
+            var popup_13b561c466ae46e7af4b11cb1e8e18e8 = L.popup({maxWidth: '300'});
+
+            
+                var html_3aaf80f876494788bcf881588353ef2d = $('<div id="html_3aaf80f876494788bcf881588353ef2d" style="width: 100.0%; height: 100.0%;">AVENIDA ENGº ABDIAS CARVALHO - PROX. N. 101 - SENTIDO CENTRO (...LOMBADA ELETRÔNICA...)</div>')[0];
+                popup_13b561c466ae46e7af4b11cb1e8e18e8.setContent(html_3aaf80f876494788bcf881588353ef2d);
+            
+
+            marker_210c38450b244ea5b96892a816912a1f.bindPopup(popup_13b561c466ae46e7af4b11cb1e8e18e8);
+
+            
+        
+    
+
+            var marker_f9acc3ef837e4be784d8df5365d57088 = L.marker(
+                [-8.129942,-34.915615],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_2385baaac5634d7cae39078627b54e2c);
+            
+    
+
+                var icon_d7e675642c0f4c0daa80ee3cbe30ecbc = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_f9acc3ef837e4be784d8df5365d57088.setIcon(icon_d7e675642c0f4c0daa80ee3cbe30ecbc);
+            
+    
+            var popup_152af67f83784155b320f2d12b3ad003 = L.popup({maxWidth: '300'});
+
+            
+                var html_d97ea7139661475f9b91e44c51bcbc69 = $('<div id="html_d97ea7139661475f9b91e44c51bcbc69" style="width: 100.0%; height: 100.0%;">AV. MAL. MASCARENHAS DE MORAES - PROX. AEROPORTO - SENTIDO CENTRO (...LOMBADA ELETRÔNICA/CÂMERA DE MONITORAMENTO...)</div>')[0];
+                popup_152af67f83784155b320f2d12b3ad003.setContent(html_d97ea7139661475f9b91e44c51bcbc69);
+            
+
+            marker_f9acc3ef837e4be784d8df5365d57088.bindPopup(popup_152af67f83784155b320f2d12b3ad003);
+
+            
+        
+    
+
+            var marker_e60f7b5c950742819aa9f068380dfeb3 = L.marker(
+                [-8.130059,-34.915856],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_2385baaac5634d7cae39078627b54e2c);
+            
+    
+
+                var icon_f660f3b4069545c18a3def4bf8537ef0 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_e60f7b5c950742819aa9f068380dfeb3.setIcon(icon_f660f3b4069545c18a3def4bf8537ef0);
+            
+    
+            var popup_5641ee4dd5554a6595842ee264be1b87 = L.popup({maxWidth: '300'});
+
+            
+                var html_901b546ab1fe47c6a51a26c87d15be46 = $('<div id="html_901b546ab1fe47c6a51a26c87d15be46" style="width: 100.0%; height: 100.0%;">AV. MAL. MASCARENHAS DE MORAES - PROX. AEROPORTO - SENTIDO PRAZERES (...LOMBADA ELETRÔNICA...)</div>')[0];
+                popup_5641ee4dd5554a6595842ee264be1b87.setContent(html_901b546ab1fe47c6a51a26c87d15be46);
+            
+
+            marker_e60f7b5c950742819aa9f068380dfeb3.bindPopup(popup_5641ee4dd5554a6595842ee264be1b87);
+
+            
+        
+    
+
+            var marker_8c58ae9f11bd426393de6f460a86eeb0 = L.marker(
+                [-8.129972,-34.915409],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_2385baaac5634d7cae39078627b54e2c);
+            
+    
+
+                var icon_eb6276432ae6406283656c7277d282a5 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_8c58ae9f11bd426393de6f460a86eeb0.setIcon(icon_eb6276432ae6406283656c7277d282a5);
+            
+    
+            var popup_b1b8b7e6828d4e50a0a35edd41b00af4 = L.popup({maxWidth: '300'});
+
+            
+                var html_8467e540ce704243bbcb60dc05aa03a8 = $('<div id="html_8467e540ce704243bbcb60dc05aa03a8" style="width: 100.0%; height: 100.0%;">AV. MAL. MASCARENHAS DE MORAES - PROX. AEROPORTO - SENTIDO CENTRO (...LOMBADA ELETRÔNICA...)</div>')[0];
+                popup_b1b8b7e6828d4e50a0a35edd41b00af4.setContent(html_8467e540ce704243bbcb60dc05aa03a8);
+            
+
+            marker_8c58ae9f11bd426393de6f460a86eeb0.bindPopup(popup_b1b8b7e6828d4e50a0a35edd41b00af4);
+
+            
+        
+    
+
+            var marker_cf61853b8a4b4e5e8484b8c6c6c78d5e = L.marker(
+                [-8.095282,-34.88216],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_2385baaac5634d7cae39078627b54e2c);
+            
+    
+
+                var icon_b62dc05fefdc44eeb3fbb7f87644fce0 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_cf61853b8a4b4e5e8484b8c6c6c78d5e.setIcon(icon_b62dc05fefdc44eeb3fbb7f87644fce0);
+            
+    
+            var popup_04850dc0a37b40dba7aa410e3f46d312 = L.popup({maxWidth: '300'});
+
+            
+                var html_f0649375c04a480a9afab5c60ec5bfce = $('<div id="html_f0649375c04a480a9afab5c60ec5bfce" style="width: 100.0%; height: 100.0%;">TERCEIRO JARDIM/BOA VIAGEM (...LOMBADA ELETRÔNICA/CAMERA MONITORAMENTO...)</div>')[0];
+                popup_04850dc0a37b40dba7aa410e3f46d312.setContent(html_f0649375c04a480a9afab5c60ec5bfce);
+            
+
+            marker_cf61853b8a4b4e5e8484b8c6c6c78d5e.bindPopup(popup_04850dc0a37b40dba7aa410e3f46d312);
+
+            
+        
+    
+
+            var marker_41fb184719e448f1b8a5f1fbb55b48da = L.marker(
+                [-8.094639,-34.882224],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_2385baaac5634d7cae39078627b54e2c);
+            
+    
+
+                var icon_086a406a597e47bb80d174d9f067cf4b = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_41fb184719e448f1b8a5f1fbb55b48da.setIcon(icon_086a406a597e47bb80d174d9f067cf4b);
+            
+    
+            var popup_270848667b344f9cb13ecb9697386562 = L.popup({maxWidth: '300'});
+
+            
+                var html_a077e9a9f73346bcb33a3ab1625f5143 = $('<div id="html_a077e9a9f73346bcb33a3ab1625f5143" style="width: 100.0%; height: 100.0%;">TERCEIRO JARDIM/BOA VIAGEM (...LOMBADA ELETRÔNICA...)</div>')[0];
+                popup_270848667b344f9cb13ecb9697386562.setContent(html_a077e9a9f73346bcb33a3ab1625f5143);
+            
+
+            marker_41fb184719e448f1b8a5f1fbb55b48da.bindPopup(popup_270848667b344f9cb13ecb9697386562);
+
+            
+        
+    
+
+            var marker_aab7730e7a0941fa8bec6b7cd33d29c1 = L.marker(
+                [-8.079941,-34.89203],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_2385baaac5634d7cae39078627b54e2c);
+            
+    
+
+                var icon_1fb93838f80a4b50aca9acc24572d763 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_aab7730e7a0941fa8bec6b7cd33d29c1.setIcon(icon_1fb93838f80a4b50aca9acc24572d763);
+            
+    
+            var popup_67c14916c90e4c5a8a9825cdfd0e3f42 = L.popup({maxWidth: '300'});
+
+            
+                var html_7ee3dfc336c74c1b8b724d4b5ed6fb32 = $('<div id="html_7ee3dfc336c74c1b8b724d4b5ed6fb32" style="width: 100.0%; height: 100.0%;">LARGO DO CABANGA - Sentido Boa Viagem (...FISC. ELET. DE VELOCIDADE/CAMERA MONITORAMENTO...)</div>')[0];
+                popup_67c14916c90e4c5a8a9825cdfd0e3f42.setContent(html_7ee3dfc336c74c1b8b724d4b5ed6fb32);
+            
+
+            marker_aab7730e7a0941fa8bec6b7cd33d29c1.bindPopup(popup_67c14916c90e4c5a8a9825cdfd0e3f42);
+
+            
+        
+    
+
+            var marker_f1c1234dc7ba4f21b4c58ab7f7ab4cab = L.marker(
+                [-8.0796,-34.8909],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_2385baaac5634d7cae39078627b54e2c);
+            
+    
+
+                var icon_700a39ff8b7d4d4ab4d1668aa00a4a44 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_f1c1234dc7ba4f21b4c58ab7f7ab4cab.setIcon(icon_700a39ff8b7d4d4ab4d1668aa00a4a44);
+            
+    
+            var popup_9e1fe64c1d88467dadfc13e73f71fec6 = L.popup({maxWidth: '300'});
+
+            
+                var html_ec4f253470a34d03ba3e229d1e926a9f = $('<div id="html_ec4f253470a34d03ba3e229d1e926a9f" style="width: 100.0%; height: 100.0%;">LARGO DO CABANGA - Sentido Derby (...LOMBADA ELETRÔNICA/CÂMERA DE MONITORAMENTO...)</div>')[0];
+                popup_9e1fe64c1d88467dadfc13e73f71fec6.setContent(html_ec4f253470a34d03ba3e229d1e926a9f);
+            
+
+            marker_f1c1234dc7ba4f21b4c58ab7f7ab4cab.bindPopup(popup_9e1fe64c1d88467dadfc13e73f71fec6);
+
+            
+        
+    
+
+            var marker_68afa6422e6b41b99c4ecd19ac49cc05 = L.marker(
+                [-8.153316,-34.908242],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_2385baaac5634d7cae39078627b54e2c);
+            
+    
+
+                var icon_5adc90993b444904a5505089e3f5b398 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_68afa6422e6b41b99c4ecd19ac49cc05.setIcon(icon_5adc90993b444904a5505089e3f5b398);
+            
+    
+            var popup_237a37f6b555421389b5cf4831c25658 = L.popup({maxWidth: '300'});
+
+            
+                var html_260f7e95399f47bca4477cf5aa07940b = $('<div id="html_260f7e95399f47bca4477cf5aa07940b" style="width: 100.0%; height: 100.0%;">PQ. DONA LINDU (...LOMBADA ELETRÔNICA/CÂMERA DE MONITORAMENTO...)</div>')[0];
+                popup_237a37f6b555421389b5cf4831c25658.setContent(html_260f7e95399f47bca4477cf5aa07940b);
+            
+
+            marker_68afa6422e6b41b99c4ecd19ac49cc05.bindPopup(popup_237a37f6b555421389b5cf4831c25658);
+
+            
+        
+    
+
+            var marker_868bf9382c27479fa934e79c291e68d5 = L.marker(
+                [-8.153146,-34.909143],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_2385baaac5634d7cae39078627b54e2c);
+            
+    
+
+                var icon_e22b55b77ccd43dca13b6f4e823ea5af = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_868bf9382c27479fa934e79c291e68d5.setIcon(icon_e22b55b77ccd43dca13b6f4e823ea5af);
+            
+    
+            var popup_8f99e23c17544e7eaada1d0653a63c81 = L.popup({maxWidth: '300'});
+
+            
+                var html_a0aa99e2e0cd44b4b4c22a993b1a8f05 = $('<div id="html_a0aa99e2e0cd44b4b4c22a993b1a8f05" style="width: 100.0%; height: 100.0%;">PQ. DONA LINDU (...LOMBADA ELETRÔNICA...)</div>')[0];
+                popup_8f99e23c17544e7eaada1d0653a63c81.setContent(html_a0aa99e2e0cd44b4b4c22a993b1a8f05);
+            
+
+            marker_868bf9382c27479fa934e79c291e68d5.bindPopup(popup_8f99e23c17544e7eaada1d0653a63c81);
+
+            
+        
+    
+
+            var marker_af173fea301d4fb8b3b564401277f338 = L.marker(
+                [-8.042742,-34.885609],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_2385baaac5634d7cae39078627b54e2c);
+            
+    
+
+                var icon_8888cd6da7984e16b1d0f84769bed99e = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_af173fea301d4fb8b3b564401277f338.setIcon(icon_8888cd6da7984e16b1d0f84769bed99e);
+            
+    
+            var popup_ac26697ab0fc48b0968660737b5aa592 = L.popup({maxWidth: '300'});
+
+            
+                var html_6d0900f9707b468f84be45f3089d2a2b = $('<div id="html_6d0900f9707b468f84be45f3089d2a2b" style="width: 100.0%; height: 100.0%;">Av. Gov. Agamenon Magalhães - antes do viaduto da Av. Norte, sent. Olinda (...LOMBADA ELETRÔNICA/CÂMERA DE MONITORAMENTO...)</div>')[0];
+                popup_ac26697ab0fc48b0968660737b5aa592.setContent(html_6d0900f9707b468f84be45f3089d2a2b);
+            
+
+            marker_af173fea301d4fb8b3b564401277f338.bindPopup(popup_ac26697ab0fc48b0968660737b5aa592);
+
+            
+        
+    
+
+            var marker_37a1e2b8c4a04a28be573372b8a8d13a = L.marker(
+                [-8.042588,-34.885792],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_2385baaac5634d7cae39078627b54e2c);
+            
+    
+
+                var icon_ea215836265243f38dc65ca2a041f751 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_37a1e2b8c4a04a28be573372b8a8d13a.setIcon(icon_ea215836265243f38dc65ca2a041f751);
+            
+    
+            var popup_91ec63fb3d3b4e38b001e06f0c1489c9 = L.popup({maxWidth: '300'});
+
+            
+                var html_1ac1ee7dc6e04ded8574f18b0ebf3404 = $('<div id="html_1ac1ee7dc6e04ded8574f18b0ebf3404" style="width: 100.0%; height: 100.0%;">Av. Gov. Agamenon Magalhães - antes do viaduto da Av. Norte, sent. Olinda (...LOMBADA ELETRÔNICA...)</div>')[0];
+                popup_91ec63fb3d3b4e38b001e06f0c1489c9.setContent(html_1ac1ee7dc6e04ded8574f18b0ebf3404);
+            
+
+            marker_37a1e2b8c4a04a28be573372b8a8d13a.bindPopup(popup_91ec63fb3d3b4e38b001e06f0c1489c9);
+
+            
+        
+    
+
+            var marker_2e26b175d1e6471caefda7bc7f52bd34 = L.marker(
+                [-8.041134,-34.883233],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_2385baaac5634d7cae39078627b54e2c);
+            
+    
+
+                var icon_c4dc3503159c4f488e4417f20ed12e82 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_2e26b175d1e6471caefda7bc7f52bd34.setIcon(icon_c4dc3503159c4f488e4417f20ed12e82);
+            
+    
+            var popup_70ce8d7806bb4ac29bf832ea853a10ff = L.popup({maxWidth: '300'});
+
+            
+                var html_f6d999608c4540868f8454a018b9867f = $('<div id="html_f6d999608c4540868f8454a018b9867f" style="width: 100.0%; height: 100.0%;">AV. GOV. AGAMENON MAGALHÃES - PROX. VD. STO. AMARO - SENTIDO BOA VIAGEM (...LOMBADA ELETRÔNICA/CAMERA MONITORAMENTO...)</div>')[0];
+                popup_70ce8d7806bb4ac29bf832ea853a10ff.setContent(html_f6d999608c4540868f8454a018b9867f);
+            
+
+            marker_2e26b175d1e6471caefda7bc7f52bd34.bindPopup(popup_70ce8d7806bb4ac29bf832ea853a10ff);
+
+            
+        
+    
+
+            var marker_666dc4fa7d854a38944626c10073c51d = L.marker(
+                [-8.041261,-34.883171],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_2385baaac5634d7cae39078627b54e2c);
+            
+    
+
+                var icon_8e0d1ce694a54267ba6208c994e4212f = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_666dc4fa7d854a38944626c10073c51d.setIcon(icon_8e0d1ce694a54267ba6208c994e4212f);
+            
+    
+            var popup_6b9ee617754c4e91be00b1701884efc1 = L.popup({maxWidth: '300'});
+
+            
+                var html_4811c1e8543e42deb88f16d3c11fb807 = $('<div id="html_4811c1e8543e42deb88f16d3c11fb807" style="width: 100.0%; height: 100.0%;">AV. GOV. AGAMENON MAGALHÃES - PROX. VD. STO. AMARO - SENTIDO BOA VIAGEM (...LOMBADA ELETRÔNICA...)</div>')[0];
+                popup_6b9ee617754c4e91be00b1701884efc1.setContent(html_4811c1e8543e42deb88f16d3c11fb807);
+            
+
+            marker_666dc4fa7d854a38944626c10073c51d.bindPopup(popup_6b9ee617754c4e91be00b1701884efc1);
+
+            
+        
+    
+
+            var marker_0ba8fa61a628400084e16ec55f0c9c01 = L.marker(
+                [-8.093734,-34.928881],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_2385baaac5634d7cae39078627b54e2c);
+            
+    
+
+                var icon_56a8a393584e4238869818fe5da54d81 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_0ba8fa61a628400084e16ec55f0c9c01.setIcon(icon_56a8a393584e4238869818fe5da54d81);
+            
+    
+            var popup_cf9cf1a1b84441e4a8f309a01389078b = L.popup({maxWidth: '300'});
+
+            
+                var html_603c229ae8d5454aac164859160dcbc8 = $('<div id="html_603c229ae8d5454aac164859160dcbc8" style="width: 100.0%; height: 100.0%;">AVENIDA RECIFE - PROX. N. 3968 - Sentido Boa Viagem (...LOMBADA ELETRÔNICA/CÂMERA DE MONITORAMENTO...)</div>')[0];
+                popup_cf9cf1a1b84441e4a8f309a01389078b.setContent(html_603c229ae8d5454aac164859160dcbc8);
+            
+
+            marker_0ba8fa61a628400084e16ec55f0c9c01.bindPopup(popup_cf9cf1a1b84441e4a8f309a01389078b);
+
+            
+        
+    
+
+            var marker_f9bde8ebdb454206a92e7cb6d21cc3c7 = L.marker(
+                [-8.093051,-34.928884],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_2385baaac5634d7cae39078627b54e2c);
+            
+    
+
+                var icon_76f44cf9d3964d9f8b85f30596451e5c = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_f9bde8ebdb454206a92e7cb6d21cc3c7.setIcon(icon_76f44cf9d3964d9f8b85f30596451e5c);
+            
+    
+            var popup_21be4147f8564408bd8c778a30153311 = L.popup({maxWidth: '300'});
+
+            
+                var html_e1ea8bc79be4477aac45532c659b49e9 = $('<div id="html_e1ea8bc79be4477aac45532c659b49e9" style="width: 100.0%; height: 100.0%;">Av. Gov. Agamenon Magalhães - antes do viaduto da Av. Norte (...LOMBADA ELETRÔNICA...)</div>')[0];
+                popup_21be4147f8564408bd8c778a30153311.setContent(html_e1ea8bc79be4477aac45532c659b49e9);
+            
+
+            marker_f9bde8ebdb454206a92e7cb6d21cc3c7.bindPopup(popup_21be4147f8564408bd8c778a30153311);
+
+            
+        
+    
+
+            var marker_799d885dab4a40d6a307c12100ef097f = L.marker(
+                [-8.066368,-34.928369],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_2385baaac5634d7cae39078627b54e2c);
+            
+    
+
+                var icon_1c1229c1ec5b472a9128bacb4d5e3f31 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_799d885dab4a40d6a307c12100ef097f.setIcon(icon_1c1229c1ec5b472a9128bacb4d5e3f31);
+            
+    
+            var popup_9f403b27d3bb4186bb5a1082bb6c8a45 = L.popup({maxWidth: '300'});
+
+            
+                var html_da4752b37798421780b39a554aeb3b57 = $('<div id="html_da4752b37798421780b39a554aeb3b57" style="width: 100.0%; height: 100.0%;">Av. General San Martin, 1864 - Sentido JD. Sao Paulo (...LOMBADA ELETRÔNICA/CÂMERA DE MONITORAMENTO...)</div>')[0];
+                popup_9f403b27d3bb4186bb5a1082bb6c8a45.setContent(html_da4752b37798421780b39a554aeb3b57);
+            
+
+            marker_799d885dab4a40d6a307c12100ef097f.bindPopup(popup_9f403b27d3bb4186bb5a1082bb6c8a45);
+
+            
+        
+    
+
+            var marker_d003102994754da39830be2516b5acbe = L.marker(
+                [-8.066442,-34.927242],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_2385baaac5634d7cae39078627b54e2c);
+            
+    
+
+                var icon_6017f9d198404436a7d197129c18dc0d = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_d003102994754da39830be2516b5acbe.setIcon(icon_6017f9d198404436a7d197129c18dc0d);
+            
+    
+            var popup_d02c1d8e8e0f42d29c0ce5e13b1be8ff = L.popup({maxWidth: '300'});
+
+            
+                var html_af9beedb317c4cc7a9b1c13a67a6aef9 = $('<div id="html_af9beedb317c4cc7a9b1c13a67a6aef9" style="width: 100.0%; height: 100.0%;">Av. General San Martin, 1864 - Sentido Abdias (...LOMBADA ELETRÔNICA...)</div>')[0];
+                popup_d02c1d8e8e0f42d29c0ce5e13b1be8ff.setContent(html_af9beedb317c4cc7a9b1c13a67a6aef9);
+            
+
+            marker_d003102994754da39830be2516b5acbe.bindPopup(popup_d02c1d8e8e0f42d29c0ce5e13b1be8ff);
+
+            
+        
+    
+
+            var marker_842d8b7638e44a6a8dfdbd223bea05f2 = L.marker(
+                [-8.038265,-34.928236],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_2385baaac5634d7cae39078627b54e2c);
+            
+    
+
+                var icon_60307889b6754d09b0d514857fae0fa7 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_842d8b7638e44a6a8dfdbd223bea05f2.setIcon(icon_60307889b6754d09b0d514857fae0fa7);
+            
+    
+            var popup_9dbde2b6c23f45c39bc0c5528f6f18d1 = L.popup({maxWidth: '300'});
+
+            
+                var html_60fe175a6ea8492c8805533389c09156 = $('<div id="html_60fe175a6ea8492c8805533389c09156" style="width: 100.0%; height: 100.0%;">Avenida Mauricio de Nassau, 276, sent. centro (...LOMBADA ELETRÔNICA/CÂMERA DE MONITORAMENTO...)</div>')[0];
+                popup_9dbde2b6c23f45c39bc0c5528f6f18d1.setContent(html_60fe175a6ea8492c8805533389c09156);
+            
+
+            marker_842d8b7638e44a6a8dfdbd223bea05f2.bindPopup(popup_9dbde2b6c23f45c39bc0c5528f6f18d1);
+
+            
+        
+    
+
+            var marker_2e8044e16f584d42a7768e3ca38c4f7d = L.marker(
+                [-8.038163,-34.929667],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_2385baaac5634d7cae39078627b54e2c);
+            
+    
+
+                var icon_dbf179f7d4784062b8441853823e0255 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_2e8044e16f584d42a7768e3ca38c4f7d.setIcon(icon_dbf179f7d4784062b8441853823e0255);
+            
+    
+            var popup_a185ed4f47d94487b572553b9e33ad1e = L.popup({maxWidth: '300'});
+
+            
+                var html_07eeabb9eff049f0873d3b7cbc32d83f = $('<div id="html_07eeabb9eff049f0873d3b7cbc32d83f" style="width: 100.0%; height: 100.0%;">Avenida Mauricio de Nassau, 276, sent. BR-101 (...LOMBADA ELETRÔNICA...)</div>')[0];
+                popup_a185ed4f47d94487b572553b9e33ad1e.setContent(html_07eeabb9eff049f0873d3b7cbc32d83f);
+            
+
+            marker_2e8044e16f584d42a7768e3ca38c4f7d.bindPopup(popup_a185ed4f47d94487b572553b9e33ad1e);
+
+            
+        
+    
+
+            var marker_4d5c352c7bad4bbd97fd144c8d42090a = L.marker(
+                [-8.038186,-34.957116],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_2385baaac5634d7cae39078627b54e2c);
+            
+    
+
+                var icon_4bbb8f1defce48d39373041fb349b3a8 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_4d5c352c7bad4bbd97fd144c8d42090a.setIcon(icon_4bbb8f1defce48d39373041fb349b3a8);
+            
+    
+            var popup_111152ed477548cd9ad42f90b9357b04 = L.popup({maxWidth: '300'});
+
+            
+                var html_13f003f9926c452aa1d50de00371c385 = $('<div id="html_13f003f9926c452aa1d50de00371c385" style="width: 100.0%; height: 100.0%;">AV. AFONSO OLINDENSE - PROX. N. 996 - Sentido av. Caxangá (...LOMBADA ELETRÔNICA/CÂMERA DE MONITORAMENTO...)</div>')[0];
+                popup_111152ed477548cd9ad42f90b9357b04.setContent(html_13f003f9926c452aa1d50de00371c385);
+            
+
+            marker_4d5c352c7bad4bbd97fd144c8d42090a.bindPopup(popup_111152ed477548cd9ad42f90b9357b04);
+
+            
+        
+    
+
+            var marker_fcaa728ba2524653a42540704e081e60 = L.marker(
+                [-8.038461,-34.95804],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_2385baaac5634d7cae39078627b54e2c);
+            
+    
+
+                var icon_a7e0f37487bc42ecb430dc5ff0a69f13 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_fcaa728ba2524653a42540704e081e60.setIcon(icon_a7e0f37487bc42ecb430dc5ff0a69f13);
+            
+    
+            var popup_3e2e3142db27491fb169f9f8894b4402 = L.popup({maxWidth: '300'});
+
+            
+                var html_1dbf66dc2b484932b15f1bcc0ea7c886 = $('<div id="html_1dbf66dc2b484932b15f1bcc0ea7c886" style="width: 100.0%; height: 100.0%;">AV. AFONSO OLINDENSE - PROX. N. 996 - Sentido Cidade Universitaria (...LOMBADA ELETRÔNICA...)</div>')[0];
+                popup_3e2e3142db27491fb169f9f8894b4402.setContent(html_1dbf66dc2b484932b15f1bcc0ea7c886);
+            
+
+            marker_fcaa728ba2524653a42540704e081e60.bindPopup(popup_3e2e3142db27491fb169f9f8894b4402);
+
+            
+        
+    
+
+            var marker_c3682b08f06c4c3da6b87270054d38a5 = L.marker(
+                [-8.088319,-34.90984],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_2385baaac5634d7cae39078627b54e2c);
+            
+    
+
+                var icon_d39a3c54e4154bb6a1bd767b4f40028d = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_c3682b08f06c4c3da6b87270054d38a5.setIcon(icon_d39a3c54e4154bb6a1bd767b4f40028d);
+            
+    
+            var popup_03f07377be964675b7d446b7e832bc12 = L.popup({maxWidth: '300'});
+
+            
+                var html_b6ecce2519664211a1e4fd6beca7218d = $('<div id="html_b6ecce2519664211a1e4fd6beca7218d" style="width: 100.0%; height: 100.0%;">RUA ARQUITETO LUIS NUNES x RUA DEOLINDO TAVARES (...LOMBADA ELETRÔNICA/CÂMERA DE MONITORAMENTO...)</div>')[0];
+                popup_03f07377be964675b7d446b7e832bc12.setContent(html_b6ecce2519664211a1e4fd6beca7218d);
+            
+
+            marker_c3682b08f06c4c3da6b87270054d38a5.bindPopup(popup_03f07377be964675b7d446b7e832bc12);
+
+            
+        
+    
+
+            var marker_4ef3048bc4d34e339ff5bdeeffa52c2f = L.marker(
+                [-8.08824,-34.910666],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_2385baaac5634d7cae39078627b54e2c);
+            
+    
+
+                var icon_ece917bf1e1249bd86c689da0e09b91f = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_4ef3048bc4d34e339ff5bdeeffa52c2f.setIcon(icon_ece917bf1e1249bd86c689da0e09b91f);
+            
+    
+            var popup_5d586dccf36048e48e879dd386727084 = L.popup({maxWidth: '300'});
+
+            
+                var html_3a9f348a9edc4ef6a0cb9e6147531c48 = $('<div id="html_3a9f348a9edc4ef6a0cb9e6147531c48" style="width: 100.0%; height: 100.0%;">RUA ARQUITETO LUIS NUNES x RUA DEOLINDO TAVARES (...LOMBADA ELETRÔNICA...)</div>')[0];
+                popup_5d586dccf36048e48e879dd386727084.setContent(html_3a9f348a9edc4ef6a0cb9e6147531c48);
+            
+
+            marker_4ef3048bc4d34e339ff5bdeeffa52c2f.bindPopup(popup_5d586dccf36048e48e879dd386727084);
+
+            
+        
+    
+
+            var marker_6b3dca0c84074d989138b7d87e957fdf = L.marker(
+                [-8.101214,-34.886865],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_2385baaac5634d7cae39078627b54e2c);
+            
+    
+
+                var icon_f058f3db51f84e9b87454627deea58f4 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_6b3dca0c84074d989138b7d87e957fdf.setIcon(icon_f058f3db51f84e9b87454627deea58f4);
+            
+    
+            var popup_095756a2ccd54e87960afdbcbccb3fd1 = L.popup({maxWidth: '300'});
+
+            
+                var html_bef360e791774bd58987552151737887 = $('<div id="html_bef360e791774bd58987552151737887" style="width: 100.0%; height: 100.0%;">AV. CONS. AGUIAR, N 1350 CONJUNTO PERNAMBUCANO (...LOMBADA ELETRÔNICA/CÂMERA DE MONITORAMENTO...)</div>')[0];
+                popup_095756a2ccd54e87960afdbcbccb3fd1.setContent(html_bef360e791774bd58987552151737887);
+            
+
+            marker_6b3dca0c84074d989138b7d87e957fdf.bindPopup(popup_095756a2ccd54e87960afdbcbccb3fd1);
+
+            
+        
+    
+
+            var marker_8ba727cee0d243b5b14f840eda83e331 = L.marker(
+                [-8.101212,-34.886825],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_2385baaac5634d7cae39078627b54e2c);
+            
+    
+
+                var icon_26a7fe60ecd24a1ea8b54e2193578a51 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_8ba727cee0d243b5b14f840eda83e331.setIcon(icon_26a7fe60ecd24a1ea8b54e2193578a51);
+            
+    
+            var popup_7d3106838e1149b78c43415d11e8bda1 = L.popup({maxWidth: '300'});
+
+            
+                var html_84aff3bd17f1424fa06b139b784a50e9 = $('<div id="html_84aff3bd17f1424fa06b139b784a50e9" style="width: 100.0%; height: 100.0%;">AV. CONS. AGUIAR, N 1350 CONJUNTO PERNAMBUCANO (...LOMBADA ELETRÔNICA...)</div>')[0];
+                popup_7d3106838e1149b78c43415d11e8bda1.setContent(html_84aff3bd17f1424fa06b139b784a50e9);
+            
+
+            marker_8ba727cee0d243b5b14f840eda83e331.bindPopup(popup_7d3106838e1149b78c43415d11e8bda1);
+
+            
+        
+    
+
+            var marker_b972c71054f745a3a4a2968e1dffeb10 = L.marker(
+                [-8.044421,-34.897298],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_2385baaac5634d7cae39078627b54e2c);
+            
+    
+
+                var icon_5ce70ad918f14ee3958e47e6d7cc929e = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_b972c71054f745a3a4a2968e1dffeb10.setIcon(icon_5ce70ad918f14ee3958e47e6d7cc929e);
+            
+    
+            var popup_360c19ff28c84de6ba9340c5b9b028a9 = L.popup({maxWidth: '300'});
+
+            
+                var html_8243e91d1b82437286167af380846c6b = $('<div id="html_8243e91d1b82437286167af380846c6b" style="width: 100.0%; height: 100.0%;">AV. CONS. ROSA E SILVA - PROX. AV. CONS. PORTELA (...CAMERA MONITORAMENTO...)</div>')[0];
+                popup_360c19ff28c84de6ba9340c5b9b028a9.setContent(html_8243e91d1b82437286167af380846c6b);
+            
+
+            marker_b972c71054f745a3a4a2968e1dffeb10.bindPopup(popup_360c19ff28c84de6ba9340c5b9b028a9);
+
+            
+        
+    
+
+            var marker_67cbc8f0ce104d6586ea82295db03431 = L.marker(
+                [-8.04304,-34.896322],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_2385baaac5634d7cae39078627b54e2c);
+            
+    
+
+                var icon_6a62234b06e34f699c4db01cbcb0ff27 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_67cbc8f0ce104d6586ea82295db03431.setIcon(icon_6a62234b06e34f699c4db01cbcb0ff27);
+            
+    
+            var popup_66f3e45eaebd46a7ae7d9d1c7401bd3c = L.popup({maxWidth: '300'});
+
+            
+                var html_5f285057b78a4c98a23831c597ad4fd9 = $('<div id="html_5f285057b78a4c98a23831c597ad4fd9" style="width: 100.0%; height: 100.0%;">Av. CONSELHEIRO PORTELA (...CAMERA MONITORAMENTO...)</div>')[0];
+                popup_66f3e45eaebd46a7ae7d9d1c7401bd3c.setContent(html_5f285057b78a4c98a23831c597ad4fd9);
+            
+
+            marker_67cbc8f0ce104d6586ea82295db03431.bindPopup(popup_66f3e45eaebd46a7ae7d9d1c7401bd3c);
+
+            
+        
+    
+
+            var marker_3fc3a733e89449eba6447c495d50da74 = L.marker(
+                [-8.05685,-34.897706],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_2385baaac5634d7cae39078627b54e2c);
+            
+    
+
+                var icon_f4f950f288a3487da78c2d1db8507f6f = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_3fc3a733e89449eba6447c495d50da74.setIcon(icon_f4f950f288a3487da78c2d1db8507f6f);
+            
+    
+            var popup_2126ecc7d57a48edbf5e4892a73e6db2 = L.popup({maxWidth: '300'});
+
+            
+                var html_22d56e793c9c43398c532831e8ee7a10 = $('<div id="html_22d56e793c9c43398c532831e8ee7a10" style="width: 100.0%; height: 100.0%;">AV. GOV. AGAMENON MAGALHAES, SEMAF 075  (...CAMERA MONITORAMENTO...)</div>')[0];
+                popup_2126ecc7d57a48edbf5e4892a73e6db2.setContent(html_22d56e793c9c43398c532831e8ee7a10);
+            
+
+            marker_3fc3a733e89449eba6447c495d50da74.bindPopup(popup_2126ecc7d57a48edbf5e4892a73e6db2);
+
+            
+        
+    
+
+            var marker_bad13879126b464abfadc4f274372262 = L.marker(
+                [-8.057487,-34.890126],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_2385baaac5634d7cae39078627b54e2c);
+            
+    
+
+                var icon_62e2c2147ba94dc9a679586f456ab9f6 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_bad13879126b464abfadc4f274372262.setIcon(icon_62e2c2147ba94dc9a679586f456ab9f6);
+            
+    
+            var popup_4e82570d54274a85a24d1a0b93acf431 = L.popup({maxWidth: '300'});
+
+            
+                var html_baebf98a20614f5c863218ba114af91f = $('<div id="html_baebf98a20614f5c863218ba114af91f" style="width: 100.0%; height: 100.0%;">AV. GOV. CONDE DA BOA VISTA x RUA DA SOLEDADE (...CAMERA MONITORAMENTO...)</div>')[0];
+                popup_4e82570d54274a85a24d1a0b93acf431.setContent(html_baebf98a20614f5c863218ba114af91f);
+            
+
+            marker_bad13879126b464abfadc4f274372262.bindPopup(popup_4e82570d54274a85a24d1a0b93acf431);
+
+            
+        
+    
+
+            var marker_ba4cc3b65950465db94a7036d92af240 = L.marker(
+                [-8.060563,-34.884204],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_2385baaac5634d7cae39078627b54e2c);
+            
+    
+
+                var icon_80ec327f54134e0e901dc557c93455b7 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_ba4cc3b65950465db94a7036d92af240.setIcon(icon_80ec327f54134e0e901dc557c93455b7);
+            
+    
+            var popup_bbb17cfd30fc4d7385cbd463f4b277fa = L.popup({maxWidth: '300'});
+
+            
+                var html_cf9a0ce1217648bca95898467fb3f9b3 = $('<div id="html_cf9a0ce1217648bca95898467fb3f9b3" style="width: 100.0%; height: 100.0%;">AV. CONDE DA BOA VISTA x RUA DO HOSPÍCIO (...CAMERA MONITORAMENTO...)</div>')[0];
+                popup_bbb17cfd30fc4d7385cbd463f4b277fa.setContent(html_cf9a0ce1217648bca95898467fb3f9b3);
+            
+
+            marker_ba4cc3b65950465db94a7036d92af240.bindPopup(popup_bbb17cfd30fc4d7385cbd463f4b277fa);
+
+            
+        
+    
+
+            var marker_71bf6aa960d84ab19b4018b4ff032722 = L.marker(
+                [-8.05583,-34.895453],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_2385baaac5634d7cae39078627b54e2c);
+            
+    
+
+                var icon_111929ae4edd4205893c05e35dd12246 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_71bf6aa960d84ab19b4018b4ff032722.setIcon(icon_111929ae4edd4205893c05e35dd12246);
+            
+    
+            var popup_202dec0532474646989702d3f98a8c0a = L.popup({maxWidth: '300'});
+
+            
+                var html_5838b11e36dc4279ac64d9c6b55cdaf9 = $('<div id="html_5838b11e36dc4279ac64d9c6b55cdaf9" style="width: 100.0%; height: 100.0%;">AV. CONDE DA BOA VISTA x RUA DOM BOSCO (...CAMERA MONITORAMENTO...)</div>')[0];
+                popup_202dec0532474646989702d3f98a8c0a.setContent(html_5838b11e36dc4279ac64d9c6b55cdaf9);
+            
+
+            marker_71bf6aa960d84ab19b4018b4ff032722.bindPopup(popup_202dec0532474646989702d3f98a8c0a);
+
+            
+        
+    
+
+            var marker_9263594e28a6477594468fb9db8cc2e8 = L.marker(
+                [-8.063842,-34.935969],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_2385baaac5634d7cae39078627b54e2c);
+            
+    
+
+                var icon_62c60b5a03d841d5883bf14a948b81ff = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_9263594e28a6477594468fb9db8cc2e8.setIcon(icon_62c60b5a03d841d5883bf14a948b81ff);
+            
+    
+            var popup_aa9592d392ae41eebb06e57d8e7504dd = L.popup({maxWidth: '300'});
+
+            
+                var html_9859699baacb46d29f7185aeecaf37f9 = $('<div id="html_9859699baacb46d29f7185aeecaf37f9" style="width: 100.0%; height: 100.0%;">AVENIDA ENGº ABDIAS CARVALHO - PROX N 101 - SENTIDO BR-232 (...DEV...)</div>')[0];
+                popup_aa9592d392ae41eebb06e57d8e7504dd.setContent(html_9859699baacb46d29f7185aeecaf37f9);
+            
+
+            marker_9263594e28a6477594468fb9db8cc2e8.bindPopup(popup_aa9592d392ae41eebb06e57d8e7504dd);
+
+            
+        
+    
+
+            var marker_1da5817985424ad08e40b0f168c7c8ce = L.marker(
+                [-8.06364,-34.935493],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_2385baaac5634d7cae39078627b54e2c);
+            
+    
+
+                var icon_187c731c809b4944b429be5850794b84 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_1da5817985424ad08e40b0f168c7c8ce.setIcon(icon_187c731c809b4944b429be5850794b84);
+            
+    
+            var popup_28e57bd4f6294597a5d92b572c8d917b = L.popup({maxWidth: '300'});
+
+            
+                var html_dfe94628ed8746629d89dba168b2932f = $('<div id="html_dfe94628ed8746629d89dba168b2932f" style="width: 100.0%; height: 100.0%;">AVENIDA ENGº ABDIAS CARVALHO - PROX N 101 - SENTIDO BR-232 (...DEV...)</div>')[0];
+                popup_28e57bd4f6294597a5d92b572c8d917b.setContent(html_dfe94628ed8746629d89dba168b2932f);
+            
+
+            marker_1da5817985424ad08e40b0f168c7c8ce.bindPopup(popup_28e57bd4f6294597a5d92b572c8d917b);
+
+            
+        
+    
+
+            var marker_05c9b2564fbb434bb9d49aab49ba85ce = L.marker(
+                [-8.130088,-34.915644],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_2385baaac5634d7cae39078627b54e2c);
+            
+    
+
+                var icon_8350c937f9d645eaa35199d9447cccb2 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_05c9b2564fbb434bb9d49aab49ba85ce.setIcon(icon_8350c937f9d645eaa35199d9447cccb2);
+            
+    
+            var popup_24991896d7af476881c3f2e303346139 = L.popup({maxWidth: '300'});
+
+            
+                var html_311dd81380db4dc9879fa096f78697d6 = $('<div id="html_311dd81380db4dc9879fa096f78697d6" style="width: 100.0%; height: 100.0%;">AV MAL MASCARENHAS DE MORAES - PROX AEROPORTO - SENTIDO PRAZERES (...DEV...)</div>')[0];
+                popup_24991896d7af476881c3f2e303346139.setContent(html_311dd81380db4dc9879fa096f78697d6);
+            
+
+            marker_05c9b2564fbb434bb9d49aab49ba85ce.bindPopup(popup_24991896d7af476881c3f2e303346139);
+
+            
+        
+    
+
+            var marker_a1849bcf3edb49e8bcd41997e2a8efaa = L.marker(
+                [-8.129942,-34.915615],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_2385baaac5634d7cae39078627b54e2c);
+            
+    
+
+                var icon_92ca5148cb3945bf83f4c5acb3b76bae = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_a1849bcf3edb49e8bcd41997e2a8efaa.setIcon(icon_92ca5148cb3945bf83f4c5acb3b76bae);
+            
+    
+            var popup_3ee084395af54421916f438328a13643 = L.popup({maxWidth: '300'});
+
+            
+                var html_3bda2faf571f42d2921766c7a4562c88 = $('<div id="html_3bda2faf571f42d2921766c7a4562c88" style="width: 100.0%; height: 100.0%;">AV MAL MASCARENHAS DE MORAES - PROX AEROPORTO - SENTIDO PRAZERES (...DEV...)</div>')[0];
+                popup_3ee084395af54421916f438328a13643.setContent(html_3bda2faf571f42d2921766c7a4562c88);
+            
+
+            marker_a1849bcf3edb49e8bcd41997e2a8efaa.bindPopup(popup_3ee084395af54421916f438328a13643);
+
+            
+        
+    
+
+            var marker_288ce71ba2274a36a2a32824d423e250 = L.marker(
+                [-8.130059,-34.915856],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_2385baaac5634d7cae39078627b54e2c);
+            
+    
+
+                var icon_91879ff57c8647a7bf890a9269abf2d5 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_288ce71ba2274a36a2a32824d423e250.setIcon(icon_91879ff57c8647a7bf890a9269abf2d5);
+            
+    
+            var popup_03b191a3e7d7450981ff4101bb746906 = L.popup({maxWidth: '300'});
+
+            
+                var html_c878c017a65d4f1db1677675e9975603 = $('<div id="html_c878c017a65d4f1db1677675e9975603" style="width: 100.0%; height: 100.0%;">AV MAL MASCARENHAS DE MORAES - PROX AEROPORTO - SENTIDO PRAZERES (...DEV...)</div>')[0];
+                popup_03b191a3e7d7450981ff4101bb746906.setContent(html_c878c017a65d4f1db1677675e9975603);
+            
+
+            marker_288ce71ba2274a36a2a32824d423e250.bindPopup(popup_03b191a3e7d7450981ff4101bb746906);
+
+            
+        
+    
+
+            var marker_922a3cf567d3441490002deb084f07a2 = L.marker(
+                [-8.129972,-34.915409],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_2385baaac5634d7cae39078627b54e2c);
+            
+    
+
+                var icon_8f11bde1468343eea46480c9e358777b = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_922a3cf567d3441490002deb084f07a2.setIcon(icon_8f11bde1468343eea46480c9e358777b);
+            
+    
+            var popup_27c4065b3ec449849292c8b81686a2bd = L.popup({maxWidth: '300'});
+
+            
+                var html_26af59d333ca4728b0bd29ded1d6aebc = $('<div id="html_26af59d333ca4728b0bd29ded1d6aebc" style="width: 100.0%; height: 100.0%;">AV MAL MASCARENHAS DE MORAES - PROX AEROPORTO - SENTIDO PRAZERES (...DEV...)</div>')[0];
+                popup_27c4065b3ec449849292c8b81686a2bd.setContent(html_26af59d333ca4728b0bd29ded1d6aebc);
+            
+
+            marker_922a3cf567d3441490002deb084f07a2.bindPopup(popup_27c4065b3ec449849292c8b81686a2bd);
+
+            
+        
+    
+
+            var marker_b49008dac8f44dbfaec1a0c13ae70424 = L.marker(
+                [-8.091903,-34.8821],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_2385baaac5634d7cae39078627b54e2c);
+            
+    
+
+                var icon_76d33f4a7f294323923ef967a5b11c52 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_b49008dac8f44dbfaec1a0c13ae70424.setIcon(icon_76d33f4a7f294323923ef967a5b11c52);
+            
+    
+            var popup_2d4ace5f4e304207807d5730138bcd2f = L.popup({maxWidth: '300'});
+
+            
+                var html_b63ef2a47f8743619af8d563a293d75f = $('<div id="html_b63ef2a47f8743619af8d563a293d75f" style="width: 100.0%; height: 100.0%;">AV BOA VIAGEM - PROX N 102 (...DEV...)</div>')[0];
+                popup_2d4ace5f4e304207807d5730138bcd2f.setContent(html_b63ef2a47f8743619af8d563a293d75f);
+            
+
+            marker_b49008dac8f44dbfaec1a0c13ae70424.bindPopup(popup_2d4ace5f4e304207807d5730138bcd2f);
+
+            
+        
+    
+
+            var marker_2e04eb38b9804feb8b7b641c816b60c9 = L.marker(
+                [-8.107912,-34.888333],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_2385baaac5634d7cae39078627b54e2c);
+            
+    
+
+                var icon_e2abd86d65f04501be71ffbc1db584a4 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_2e04eb38b9804feb8b7b641c816b60c9.setIcon(icon_e2abd86d65f04501be71ffbc1db584a4);
+            
+    
+            var popup_bb3ab5c9d68d4169a2a4fa821d076e3c = L.popup({maxWidth: '300'});
+
+            
+                var html_6c723813b25f438892d4bb64ba2d595a = $('<div id="html_6c723813b25f438892d4bb64ba2d595a" style="width: 100.0%; height: 100.0%;">TERCEIRO JARDIM/BOA VIAGEM (...DEV...)</div>')[0];
+                popup_bb3ab5c9d68d4169a2a4fa821d076e3c.setContent(html_6c723813b25f438892d4bb64ba2d595a);
+            
+
+            marker_2e04eb38b9804feb8b7b641c816b60c9.bindPopup(popup_bb3ab5c9d68d4169a2a4fa821d076e3c);
+
+            
+        
+    
+
+            var marker_252b495083b24e12a83097ae85bb5563 = L.marker(
+                [-8.079941,-34.89203],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_2385baaac5634d7cae39078627b54e2c);
+            
+    
+
+                var icon_dd3484d60fba43859a732f7102eec37c = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_252b495083b24e12a83097ae85bb5563.setIcon(icon_dd3484d60fba43859a732f7102eec37c);
+            
+    
+            var popup_2696d3235d3e4307be7b021431e812dd = L.popup({maxWidth: '300'});
+
+            
+                var html_83eb6b3c58c448fd9dfd7d54efea17c9 = $('<div id="html_83eb6b3c58c448fd9dfd7d54efea17c9" style="width: 100.0%; height: 100.0%;">LARGO DO CABANGA - SENTIDO BOA VIAGEM (...DEV...)</div>')[0];
+                popup_2696d3235d3e4307be7b021431e812dd.setContent(html_83eb6b3c58c448fd9dfd7d54efea17c9);
+            
+
+            marker_252b495083b24e12a83097ae85bb5563.bindPopup(popup_2696d3235d3e4307be7b021431e812dd);
+
+            
+        
+    
+
+            var marker_d1c2454e6a264da4ab380c5902b25436 = L.marker(
+                [-8.0796,-34.8909],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_2385baaac5634d7cae39078627b54e2c);
+            
+    
+
+                var icon_080be6f888b4496aa941882a3e6cef97 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_d1c2454e6a264da4ab380c5902b25436.setIcon(icon_080be6f888b4496aa941882a3e6cef97);
+            
+    
+            var popup_67d4b14baf9644ffab21a260ffb750d8 = L.popup({maxWidth: '300'});
+
+            
+                var html_2adce0f486fd4193b7e84be03965df41 = $('<div id="html_2adce0f486fd4193b7e84be03965df41" style="width: 100.0%; height: 100.0%;">LARGO DO CABANGA - SENTIDO DERBY (...DEV...)</div>')[0];
+                popup_67d4b14baf9644ffab21a260ffb750d8.setContent(html_2adce0f486fd4193b7e84be03965df41);
+            
+
+            marker_d1c2454e6a264da4ab380c5902b25436.bindPopup(popup_67d4b14baf9644ffab21a260ffb750d8);
+
+            
+        
+    
+
+            var marker_85a9e8efd11f4ef994b5a210c09f3164 = L.marker(
+                [-8.153316,-34.908242],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_2385baaac5634d7cae39078627b54e2c);
+            
+    
+
+                var icon_eceb392a82ec49c6875e3627a27a7f6f = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_85a9e8efd11f4ef994b5a210c09f3164.setIcon(icon_eceb392a82ec49c6875e3627a27a7f6f);
+            
+    
+            var popup_d2e998bd43cb4f799e783fb884cf9851 = L.popup({maxWidth: '300'});
+
+            
+                var html_61542fe76bd34a2fbb5c6f8ed5b8d1c1 = $('<div id="html_61542fe76bd34a2fbb5c6f8ed5b8d1c1" style="width: 100.0%; height: 100.0%;">PQ DONA LINDU (...DEV...)</div>')[0];
+                popup_d2e998bd43cb4f799e783fb884cf9851.setContent(html_61542fe76bd34a2fbb5c6f8ed5b8d1c1);
+            
+
+            marker_85a9e8efd11f4ef994b5a210c09f3164.bindPopup(popup_d2e998bd43cb4f799e783fb884cf9851);
+
+            
+        
+    
+
+            var marker_12a3dfb3dec84f06850eb33678e73153 = L.marker(
+                [-8.153146,-34.909143],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_2385baaac5634d7cae39078627b54e2c);
+            
+    
+
+                var icon_74f60db9887f4d3791d0f69b858d18fe = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_12a3dfb3dec84f06850eb33678e73153.setIcon(icon_74f60db9887f4d3791d0f69b858d18fe);
+            
+    
+            var popup_0a443261697941089844eb51d5789ea4 = L.popup({maxWidth: '300'});
+
+            
+                var html_b3db09cd9fbc49ff8ee449de18b00470 = $('<div id="html_b3db09cd9fbc49ff8ee449de18b00470" style="width: 100.0%; height: 100.0%;">PQ DONA LINDU (...DEV...)</div>')[0];
+                popup_0a443261697941089844eb51d5789ea4.setContent(html_b3db09cd9fbc49ff8ee449de18b00470);
+            
+
+            marker_12a3dfb3dec84f06850eb33678e73153.bindPopup(popup_0a443261697941089844eb51d5789ea4);
+
+            
+        
+    
+
+            var marker_33ca1dcd44a7468483479b8250d86e18 = L.marker(
+                [-8.042742,-34.885609],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_2385baaac5634d7cae39078627b54e2c);
+            
+    
+
+                var icon_d6352a32c1c348fd8391f50b7ba004e2 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_33ca1dcd44a7468483479b8250d86e18.setIcon(icon_d6352a32c1c348fd8391f50b7ba004e2);
+            
+    
+            var popup_e5a05a85a0b54ae0a5bf4a8915ac4b06 = L.popup({maxWidth: '300'});
+
+            
+                var html_5fe99877374846d59c9e3ac623de9bf7 = $('<div id="html_5fe99877374846d59c9e3ac623de9bf7" style="width: 100.0%; height: 100.0%;">AV GOV AGAMENON MAGALHÃES  - ANTES DO VIADUTO DA AV NORTE (...DEV...)</div>')[0];
+                popup_e5a05a85a0b54ae0a5bf4a8915ac4b06.setContent(html_5fe99877374846d59c9e3ac623de9bf7);
+            
+
+            marker_33ca1dcd44a7468483479b8250d86e18.bindPopup(popup_e5a05a85a0b54ae0a5bf4a8915ac4b06);
+
+            
+        
+    
+
+            var marker_c70502e3435b483bb6dbc61ef199f7d7 = L.marker(
+                [-8.042588,-34.885792],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_2385baaac5634d7cae39078627b54e2c);
+            
+    
+
+                var icon_9d90a12176b14db6987d67fb94e54fba = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_c70502e3435b483bb6dbc61ef199f7d7.setIcon(icon_9d90a12176b14db6987d67fb94e54fba);
+            
+    
+            var popup_fc5f1f5bc1cd45d4863031c4e1781f9c = L.popup({maxWidth: '300'});
+
+            
+                var html_71502b8469744690a7f82cba21b5c54d = $('<div id="html_71502b8469744690a7f82cba21b5c54d" style="width: 100.0%; height: 100.0%;">AV GOV AGAMENON MAGALHÃES  - ANTES DO VIADUTO DA AV NORTE (...DEV...)</div>')[0];
+                popup_fc5f1f5bc1cd45d4863031c4e1781f9c.setContent(html_71502b8469744690a7f82cba21b5c54d);
+            
+
+            marker_c70502e3435b483bb6dbc61ef199f7d7.bindPopup(popup_fc5f1f5bc1cd45d4863031c4e1781f9c);
+
+            
+        
+    
+
+            var marker_68fc3d9f3b0f438fba4d4d0c98dbdef3 = L.marker(
+                [-8.041134,-34.883233],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_2385baaac5634d7cae39078627b54e2c);
+            
+    
+
+                var icon_13c3ae9714d3449684e8ce6744460307 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_68fc3d9f3b0f438fba4d4d0c98dbdef3.setIcon(icon_13c3ae9714d3449684e8ce6744460307);
+            
+    
+            var popup_91d73d2e964548ca8bea75756090960b = L.popup({maxWidth: '300'});
+
+            
+                var html_4ed297824a554d0aaf257e285a5e770d = $('<div id="html_4ed297824a554d0aaf257e285a5e770d" style="width: 100.0%; height: 100.0%;">AV GOV AGAMENON MAGALHÃES - PROX VD STO AMARO - SENTIDO BOA VIAGEM (...DEV...)</div>')[0];
+                popup_91d73d2e964548ca8bea75756090960b.setContent(html_4ed297824a554d0aaf257e285a5e770d);
+            
+
+            marker_68fc3d9f3b0f438fba4d4d0c98dbdef3.bindPopup(popup_91d73d2e964548ca8bea75756090960b);
+
+            
+        
+    
+
+            var marker_035f524004b64bd586a97e79a51865a3 = L.marker(
+                [-8.041261,-34.883171],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_2385baaac5634d7cae39078627b54e2c);
+            
+    
+
+                var icon_4f4d24e85ec34ae3b5f8a4f564a397c6 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_035f524004b64bd586a97e79a51865a3.setIcon(icon_4f4d24e85ec34ae3b5f8a4f564a397c6);
+            
+    
+            var popup_0055746b673e44e3bd121028e137bc36 = L.popup({maxWidth: '300'});
+
+            
+                var html_a37ed64ec329434f85018e9782e9b0f9 = $('<div id="html_a37ed64ec329434f85018e9782e9b0f9" style="width: 100.0%; height: 100.0%;">AV GOV AGAMENON MAGALHÃES - PROX VD STO AMARO - SENTIDO BOA VIAGEM (...DEV...)</div>')[0];
+                popup_0055746b673e44e3bd121028e137bc36.setContent(html_a37ed64ec329434f85018e9782e9b0f9);
+            
+
+            marker_035f524004b64bd586a97e79a51865a3.bindPopup(popup_0055746b673e44e3bd121028e137bc36);
+
+            
+        
+    
+
+            var marker_e2525a7ea0354020ba3e41c8ab748848 = L.marker(
+                [-8.093734,-34.928881],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_2385baaac5634d7cae39078627b54e2c);
+            
+    
+
+                var icon_41677f82236c4246a964289898b9262f = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_e2525a7ea0354020ba3e41c8ab748848.setIcon(icon_41677f82236c4246a964289898b9262f);
+            
+    
+            var popup_425e34502f914983a5ed84bcbc781726 = L.popup({maxWidth: '300'});
+
+            
+                var html_5c53500311454a159f31d23991e66893 = $('<div id="html_5c53500311454a159f31d23991e66893" style="width: 100.0%; height: 100.0%;">AVENIDA RECIFE - PROX N 3968 - SENTIDO BOA VIAGEM (...DEV...)</div>')[0];
+                popup_425e34502f914983a5ed84bcbc781726.setContent(html_5c53500311454a159f31d23991e66893);
+            
+
+            marker_e2525a7ea0354020ba3e41c8ab748848.bindPopup(popup_425e34502f914983a5ed84bcbc781726);
+
+            
+        
+    
+
+            var marker_2324a22934eb4ca4b6beb3774ba44429 = L.marker(
+                [-8.093051,-34.928884],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_2385baaac5634d7cae39078627b54e2c);
+            
+    
+
+                var icon_67112b74998f4c3f81da7ae3dc384b39 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_2324a22934eb4ca4b6beb3774ba44429.setIcon(icon_67112b74998f4c3f81da7ae3dc384b39);
+            
+    
+            var popup_fa34691254434859a184c8a2a96809ef = L.popup({maxWidth: '300'});
+
+            
+                var html_8898f4dcaa5349a98ddcce1f1be8864a = $('<div id="html_8898f4dcaa5349a98ddcce1f1be8864a" style="width: 100.0%; height: 100.0%;">AVENIDA RECIFE - PROX N 3968 - SENTIDO CEASA (...DEV...)</div>')[0];
+                popup_fa34691254434859a184c8a2a96809ef.setContent(html_8898f4dcaa5349a98ddcce1f1be8864a);
+            
+
+            marker_2324a22934eb4ca4b6beb3774ba44429.bindPopup(popup_fa34691254434859a184c8a2a96809ef);
+
+            
+        
+    
+
+            var marker_4685ee96391c443f90d70b8042c2c6d3 = L.marker(
+                [-8.066368,-34.928369],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_2385baaac5634d7cae39078627b54e2c);
+            
+    
+
+                var icon_a954b63b285e475384d7963293b031d3 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_4685ee96391c443f90d70b8042c2c6d3.setIcon(icon_a954b63b285e475384d7963293b031d3);
+            
+    
+            var popup_b7a3e6ef6ce740c9a39e7277d4624548 = L.popup({maxWidth: '300'});
+
+            
+                var html_febcd4c9f2be4849844f33385d1fbce0 = $('<div id="html_febcd4c9f2be4849844f33385d1fbce0" style="width: 100.0%; height: 100.0%;">AV GENERAL SAN MARTIN - 1864 - SENTIDO JD SAO PAULO (...TOTEM...)</div>')[0];
+                popup_b7a3e6ef6ce740c9a39e7277d4624548.setContent(html_febcd4c9f2be4849844f33385d1fbce0);
+            
+
+            marker_4685ee96391c443f90d70b8042c2c6d3.bindPopup(popup_b7a3e6ef6ce740c9a39e7277d4624548);
+
+            
+        
+    
+
+            var marker_c34c60d8275348868f0879300d865b21 = L.marker(
+                [-8.066442,-34.927242],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_2385baaac5634d7cae39078627b54e2c);
+            
+    
+
+                var icon_244bdf834ebe4c568af8480b52d99c1b = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_c34c60d8275348868f0879300d865b21.setIcon(icon_244bdf834ebe4c568af8480b52d99c1b);
+            
+    
+            var popup_1259e6c3549945cda6520121d7456a76 = L.popup({maxWidth: '300'});
+
+            
+                var html_5b05c0592d1a43dc9e61af7d9d4dddcb = $('<div id="html_5b05c0592d1a43dc9e61af7d9d4dddcb" style="width: 100.0%; height: 100.0%;">AV GENERAL SAN MARTIN - 1864 - SENTIDO ABDIAS (...TOTEM...)</div>')[0];
+                popup_1259e6c3549945cda6520121d7456a76.setContent(html_5b05c0592d1a43dc9e61af7d9d4dddcb);
+            
+
+            marker_c34c60d8275348868f0879300d865b21.bindPopup(popup_1259e6c3549945cda6520121d7456a76);
+
+            
+        
+    
+
+            var marker_50697f2a0455416faa352fdbcfbdee1d = L.marker(
+                [-8.038265,-34.928236],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_2385baaac5634d7cae39078627b54e2c);
+            
+    
+
+                var icon_466e7748d41847859fa2d0b34803042a = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_50697f2a0455416faa352fdbcfbdee1d.setIcon(icon_466e7748d41847859fa2d0b34803042a);
+            
+    
+            var popup_cecf56bb0d43412aa1e55b0e0833d43f = L.popup({maxWidth: '300'});
+
+            
+                var html_56e94adc6ae84fe8a9fd05e88c3fc61d = $('<div id="html_56e94adc6ae84fe8a9fd05e88c3fc61d" style="width: 100.0%; height: 100.0%;">AVENIDA MAURICIO DE NASSAU - 276 - SENT CENTRO (...TOTEM...)</div>')[0];
+                popup_cecf56bb0d43412aa1e55b0e0833d43f.setContent(html_56e94adc6ae84fe8a9fd05e88c3fc61d);
+            
+
+            marker_50697f2a0455416faa352fdbcfbdee1d.bindPopup(popup_cecf56bb0d43412aa1e55b0e0833d43f);
+
+            
+        
+    
+
+            var marker_6475c0ef1eac422aa35755cc9cfa040b = L.marker(
+                [-8.038163,-34.929667],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_2385baaac5634d7cae39078627b54e2c);
+            
+    
+
+                var icon_d4481bf9c81e485b889ac30e0e506f68 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_6475c0ef1eac422aa35755cc9cfa040b.setIcon(icon_d4481bf9c81e485b889ac30e0e506f68);
+            
+    
+            var popup_e4aa2720e37848889255306f8f5bb978 = L.popup({maxWidth: '300'});
+
+            
+                var html_353a8ed6e49941c2a2ae4b4b95d441cc = $('<div id="html_353a8ed6e49941c2a2ae4b4b95d441cc" style="width: 100.0%; height: 100.0%;">AVENIDA MAURICIO DE NASSAU - 276 - SENT BR-101 (...TOTEM...)</div>')[0];
+                popup_e4aa2720e37848889255306f8f5bb978.setContent(html_353a8ed6e49941c2a2ae4b4b95d441cc);
+            
+
+            marker_6475c0ef1eac422aa35755cc9cfa040b.bindPopup(popup_e4aa2720e37848889255306f8f5bb978);
+
+            
+        
+    
+
+            var marker_e458e9dd153e48d0aeff88367e1488a8 = L.marker(
+                [-8.038186,-34.957116],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_2385baaac5634d7cae39078627b54e2c);
+            
+    
+
+                var icon_f4542e0b929244fbaef69d82baa236ba = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_e458e9dd153e48d0aeff88367e1488a8.setIcon(icon_f4542e0b929244fbaef69d82baa236ba);
+            
+    
+            var popup_6eaa169b41ac4221a5b7d742ea1a9887 = L.popup({maxWidth: '300'});
+
+            
+                var html_ae5ecbf0ce7a4006a93dc15c95e7c567 = $('<div id="html_ae5ecbf0ce7a4006a93dc15c95e7c567" style="width: 100.0%; height: 100.0%;">AV AFONSO OLINDENSE - PROX N 996 - SENTIDO AV CAXANGÁ (...TOTEM...)</div>')[0];
+                popup_6eaa169b41ac4221a5b7d742ea1a9887.setContent(html_ae5ecbf0ce7a4006a93dc15c95e7c567);
+            
+
+            marker_e458e9dd153e48d0aeff88367e1488a8.bindPopup(popup_6eaa169b41ac4221a5b7d742ea1a9887);
+
+            
+        
+    
+
+            var marker_7b42f0aeca854ae096e4e6ff8c669116 = L.marker(
+                [-8.038461,-34.95804],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_2385baaac5634d7cae39078627b54e2c);
+            
+    
+
+                var icon_5b63caf9f359424ebd8917fa1ad9e67f = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_7b42f0aeca854ae096e4e6ff8c669116.setIcon(icon_5b63caf9f359424ebd8917fa1ad9e67f);
+            
+    
+            var popup_ddc06d32fe3a497ba453c90a6be30d75 = L.popup({maxWidth: '300'});
+
+            
+                var html_9a21122fd6084d60aaed34c3b5c1246f = $('<div id="html_9a21122fd6084d60aaed34c3b5c1246f" style="width: 100.0%; height: 100.0%;">AV AFONSO OLINDENSE - PROX N 996 - SENTIDO CIDADE UNIVERSITARIA (...TOTEM...)</div>')[0];
+                popup_ddc06d32fe3a497ba453c90a6be30d75.setContent(html_9a21122fd6084d60aaed34c3b5c1246f);
+            
+
+            marker_7b42f0aeca854ae096e4e6ff8c669116.bindPopup(popup_ddc06d32fe3a497ba453c90a6be30d75);
+
+            
+        
+    
+
+            var marker_92df86eda5984bf2ad115d8852b4caeb = L.marker(
+                [-8.063776,-34.87156],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_2385baaac5634d7cae39078627b54e2c);
+            
+    
+
+                var icon_72c3f3109e974bb99859528ec67e0f37 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_92df86eda5984bf2ad115d8852b4caeb.setIcon(icon_72c3f3109e974bb99859528ec67e0f37);
+            
+    
+            var popup_c16fdeec3d494bd38cd6701f03ddefd8 = L.popup({maxWidth: '300'});
+
+            
+                var html_709aeb259435446d88734e5a61c8bdb0 = $('<div id="html_709aeb259435446d88734e5a61c8bdb0" style="width: 100.0%; height: 100.0%;"> (...TOTEM...)</div>')[0];
+                popup_c16fdeec3d494bd38cd6701f03ddefd8.setContent(html_709aeb259435446d88734e5a61c8bdb0);
+            
+
+            marker_92df86eda5984bf2ad115d8852b4caeb.bindPopup(popup_c16fdeec3d494bd38cd6701f03ddefd8);
+
+            
+        
+    
+
+            var marker_0830f6c347ba411c804b5f9550a68117 = L.marker(
+                [-8.063755,-34.871651],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_2385baaac5634d7cae39078627b54e2c);
+            
+    
+
+                var icon_c9fb0f14079a40e58b1fac54190d204b = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_0830f6c347ba411c804b5f9550a68117.setIcon(icon_c9fb0f14079a40e58b1fac54190d204b);
+            
+    
+            var popup_8ad61f4f7e0d47d187894c9fa11b4f4c = L.popup({maxWidth: '300'});
+
+            
+                var html_db766c694b8e438ca77fee84cab169f9 = $('<div id="html_db766c694b8e438ca77fee84cab169f9" style="width: 100.0%; height: 100.0%;"> (...TOTEM...)</div>')[0];
+                popup_8ad61f4f7e0d47d187894c9fa11b4f4c.setContent(html_db766c694b8e438ca77fee84cab169f9);
+            
+
+            marker_0830f6c347ba411c804b5f9550a68117.bindPopup(popup_8ad61f4f7e0d47d187894c9fa11b4f4c);
+
+            
+        
+    
+
+            var marker_28a7e60f15384c73961eaa70f6ce678b = L.marker(
+                [-8.088319,-34.90984],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_2385baaac5634d7cae39078627b54e2c);
+            
+    
+
+                var icon_000dceadff08434b970bfa78a57f487d = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_28a7e60f15384c73961eaa70f6ce678b.setIcon(icon_000dceadff08434b970bfa78a57f487d);
+            
+    
+            var popup_199e2eac0e1a40e683d9dce4b75cf209 = L.popup({maxWidth: '300'});
+
+            
+                var html_10cc7d9b4af94dc09f01eb20b8b463cf = $('<div id="html_10cc7d9b4af94dc09f01eb20b8b463cf" style="width: 100.0%; height: 100.0%;">RUA ARQUITETO LUIS NUNES X RUA DEOLINDO TAVARES (...LINCE...)</div>')[0];
+                popup_199e2eac0e1a40e683d9dce4b75cf209.setContent(html_10cc7d9b4af94dc09f01eb20b8b463cf);
+            
+
+            marker_28a7e60f15384c73961eaa70f6ce678b.bindPopup(popup_199e2eac0e1a40e683d9dce4b75cf209);
+
+            
+        
+    
+
+            var marker_532fe8b77c6e4bbead2a4cb76e104520 = L.marker(
+                [-8.08824,-34.910666],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_2385baaac5634d7cae39078627b54e2c);
+            
+    
+
+                var icon_05d5d3ea8f4c4f629f6e66b8faa2a09b = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_532fe8b77c6e4bbead2a4cb76e104520.setIcon(icon_05d5d3ea8f4c4f629f6e66b8faa2a09b);
+            
+    
+            var popup_ee3fad3da402461a88898776c42dbe6b = L.popup({maxWidth: '300'});
+
+            
+                var html_5ade79ef3e76410aa58a383c29029ff5 = $('<div id="html_5ade79ef3e76410aa58a383c29029ff5" style="width: 100.0%; height: 100.0%;">RUA ARQUITETO LUIS NUNES X RUA DEOLINDO TAVARES (...LINCE...)</div>')[0];
+                popup_ee3fad3da402461a88898776c42dbe6b.setContent(html_5ade79ef3e76410aa58a383c29029ff5);
+            
+
+            marker_532fe8b77c6e4bbead2a4cb76e104520.bindPopup(popup_ee3fad3da402461a88898776c42dbe6b);
+
+            
+        
+    
+
+            var marker_1002e81f4cb34b5d87b720b4056cce63 = L.marker(
+                [-8.101214,-34.886865],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_2385baaac5634d7cae39078627b54e2c);
+            
+    
+
+                var icon_29c44d628db141038b8816e0a1c43408 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_1002e81f4cb34b5d87b720b4056cce63.setIcon(icon_29c44d628db141038b8816e0a1c43408);
+            
+    
+            var popup_07be09c355b74d0eb91ae086db060b27 = L.popup({maxWidth: '300'});
+
+            
+                var html_c5aa4bfcbdce49c092ed73c370411f21 = $('<div id="html_c5aa4bfcbdce49c092ed73c370411f21" style="width: 100.0%; height: 100.0%;">AV CONS AGUIAR - N 1350 CONJUNTO PERNAMBUCANO (...LINCE...)</div>')[0];
+                popup_07be09c355b74d0eb91ae086db060b27.setContent(html_c5aa4bfcbdce49c092ed73c370411f21);
+            
+
+            marker_1002e81f4cb34b5d87b720b4056cce63.bindPopup(popup_07be09c355b74d0eb91ae086db060b27);
+
+            
+        
+    
+
+            var marker_4c5e6fe7fa504c6c9cb1b343cb7aeb35 = L.marker(
+                [-8.101212,-34.886825],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_2385baaac5634d7cae39078627b54e2c);
+            
+    
+
+                var icon_8f25275a4f984e61a5e50f8376fac039 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_4c5e6fe7fa504c6c9cb1b343cb7aeb35.setIcon(icon_8f25275a4f984e61a5e50f8376fac039);
+            
+    
+            var popup_5bb886ac147f42fbbb1e9997b72634d7 = L.popup({maxWidth: '300'});
+
+            
+                var html_7fde770fee6e4e5f92171defd955ec79 = $('<div id="html_7fde770fee6e4e5f92171defd955ec79" style="width: 100.0%; height: 100.0%;">AV CONS AGUIAR - N 1350 CONJUNTO PERNAMBUCANO (...LINCE...)</div>')[0];
+                popup_5bb886ac147f42fbbb1e9997b72634d7.setContent(html_7fde770fee6e4e5f92171defd955ec79);
+            
+
+            marker_4c5e6fe7fa504c6c9cb1b343cb7aeb35.bindPopup(popup_5bb886ac147f42fbbb1e9997b72634d7);
+
+            
+        
+    
+
+            var marker_2696e0248ef54de999052bbd3590eeaf = L.marker(
+                [-8.041367,-34.903259],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_2385baaac5634d7cae39078627b54e2c);
+            
+    
+
+                var icon_e6d19e95a292401abfab1a6f15074570 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_2696e0248ef54de999052bbd3590eeaf.setIcon(icon_e6d19e95a292401abfab1a6f15074570);
+            
+    
+            var popup_88522cf02749438eacbce3b8ee83001a = L.popup({maxWidth: '300'});
+
+            
+                var html_456ec78d56bb4847b029f95d45fd0687 = $('<div id="html_456ec78d56bb4847b029f95d45fd0687" style="width: 100.0%; height: 100.0%;"> (...LINCE...)</div>')[0];
+                popup_88522cf02749438eacbce3b8ee83001a.setContent(html_456ec78d56bb4847b029f95d45fd0687);
+            
+
+            marker_2696e0248ef54de999052bbd3590eeaf.bindPopup(popup_88522cf02749438eacbce3b8ee83001a);
+
+            
+        
+    
+
+            var marker_86aabc04a85e454b87f31a4e2a2760d1 = L.marker(
+                [-8.08816,-34.884059],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_2385baaac5634d7cae39078627b54e2c);
+            
+    
+
+                var icon_30b9bf4d56a24d96b19f8659ea2594f5 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_86aabc04a85e454b87f31a4e2a2760d1.setIcon(icon_30b9bf4d56a24d96b19f8659ea2594f5);
+            
+    
+            var popup_75c72fcd57564a38962ff49a75f3b94b = L.popup({maxWidth: '300'});
+
+            
+                var html_1acf182d4aa94c7f8e30637b496a4086 = $('<div id="html_1acf182d4aa94c7f8e30637b496a4086" style="width: 100.0%; height: 100.0%;"> (...LINCE...)</div>')[0];
+                popup_75c72fcd57564a38962ff49a75f3b94b.setContent(html_1acf182d4aa94c7f8e30637b496a4086);
+            
+
+            marker_86aabc04a85e454b87f31a4e2a2760d1.bindPopup(popup_75c72fcd57564a38962ff49a75f3b94b);
+
+            
+        
+    
+
+            var marker_69a414f0b7e949e28c1d7c347f2bae00 = L.marker(
+                [-8.074541,-34.884285],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_2385baaac5634d7cae39078627b54e2c);
+            
+    
+
+                var icon_b900c8290f8544e9bc0961447feb165f = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_69a414f0b7e949e28c1d7c347f2bae00.setIcon(icon_b900c8290f8544e9bc0961447feb165f);
+            
+    
+            var popup_19bad27fb9304ef1962ef9ae08a4eed4 = L.popup({maxWidth: '300'});
+
+            
+                var html_2c63c580be2e4884b4a2c92d3a95fee6 = $('<div id="html_2c63c580be2e4884b4a2c92d3a95fee6" style="width: 100.0%; height: 100.0%;"> (...LINCE...)</div>')[0];
+                popup_19bad27fb9304ef1962ef9ae08a4eed4.setContent(html_2c63c580be2e4884b4a2c92d3a95fee6);
+            
+
+            marker_69a414f0b7e949e28c1d7c347f2bae00.bindPopup(popup_19bad27fb9304ef1962ef9ae08a4eed4);
+
+            
+        
+    
+
+            var marker_deebcaee4dc249aeacae20cf14162852 = L.marker(
+                [-8.071604,-34.877642],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_2385baaac5634d7cae39078627b54e2c);
+            
+    
+
+                var icon_c54a1e30d920411391e832945529a060 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_deebcaee4dc249aeacae20cf14162852.setIcon(icon_c54a1e30d920411391e832945529a060);
+            
+    
+            var popup_51eb920b44c54df39ec8478f9f960d44 = L.popup({maxWidth: '300'});
+
+            
+                var html_9b00bb185b654af482ce0a7c1f04f779 = $('<div id="html_9b00bb185b654af482ce0a7c1f04f779" style="width: 100.0%; height: 100.0%;"> (...LINCE...)</div>')[0];
+                popup_51eb920b44c54df39ec8478f9f960d44.setContent(html_9b00bb185b654af482ce0a7c1f04f779);
+            
+
+            marker_deebcaee4dc249aeacae20cf14162852.bindPopup(popup_51eb920b44c54df39ec8478f9f960d44);
+
+            
+        
+    
+
+            var marker_54a3fffb31654190b45ac74398d1690d = L.marker(
+                [-8.0635,-34.87362],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_2385baaac5634d7cae39078627b54e2c);
+            
+    
+
+                var icon_0c15877fe7d4425dae2b03df1585b3f3 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_54a3fffb31654190b45ac74398d1690d.setIcon(icon_0c15877fe7d4425dae2b03df1585b3f3);
+            
+    
+            var popup_b6680796430b4d149e8a32ae4745846f = L.popup({maxWidth: '300'});
+
+            
+                var html_ff64c22da69d41a1a341097b1e6f43f6 = $('<div id="html_ff64c22da69d41a1a341097b1e6f43f6" style="width: 100.0%; height: 100.0%;"> (...LINCE...)</div>')[0];
+                popup_b6680796430b4d149e8a32ae4745846f.setContent(html_ff64c22da69d41a1a341097b1e6f43f6);
+            
+
+            marker_54a3fffb31654190b45ac74398d1690d.bindPopup(popup_b6680796430b4d149e8a32ae4745846f);
+
+            
+        
+    
+
+            var marker_23909fd3079146a5a7e6f3747cedb9db = L.marker(
+                [-8.080844,-34.891049],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_2385baaac5634d7cae39078627b54e2c);
+            
+    
+
+                var icon_8566a88a7cf44382a3a80ec2f1bc8319 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_23909fd3079146a5a7e6f3747cedb9db.setIcon(icon_8566a88a7cf44382a3a80ec2f1bc8319);
+            
+    
+            var popup_59d69b37dd66472eb9dfeca547d23621 = L.popup({maxWidth: '300'});
+
+            
+                var html_e2741760691f43b68f31353590935cb8 = $('<div id="html_e2741760691f43b68f31353590935cb8" style="width: 100.0%; height: 100.0%;">Largo do Cabanga - Ponte do Pina (...Câmera 150...)</div>')[0];
+                popup_59d69b37dd66472eb9dfeca547d23621.setContent(html_e2741760691f43b68f31353590935cb8);
+            
+
+            marker_23909fd3079146a5a7e6f3747cedb9db.bindPopup(popup_59d69b37dd66472eb9dfeca547d23621);
+
+            
+        
+    
+
+            var marker_8825307ce3e146fb9900f9b96b4616a5 = L.marker(
+                [-8.088795,-34.885291],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_2385baaac5634d7cae39078627b54e2c);
+            
+    
+
+                var icon_349eb1c81f8d470d8a654cf194446aa9 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_8825307ce3e146fb9900f9b96b4616a5.setIcon(icon_349eb1c81f8d470d8a654cf194446aa9);
+            
+    
+            var popup_707b585d25a740e1aac92c9060a46faa = L.popup({maxWidth: '300'});
+
+            
+                var html_ea5667e74b0d4cdca884206b90a06953 = $('<div id="html_ea5667e74b0d4cdca884206b90a06953" style="width: 100.0%; height: 100.0%;">Av. Herculano Bandeira - Semáforo 137 (...Câmera 151...)</div>')[0];
+                popup_707b585d25a740e1aac92c9060a46faa.setContent(html_ea5667e74b0d4cdca884206b90a06953);
+            
+
+            marker_8825307ce3e146fb9900f9b96b4616a5.bindPopup(popup_707b585d25a740e1aac92c9060a46faa);
+
+            
+        
+    
+
+            var marker_61aaa1fbf62b4d5e896c9c4b8b584ab5 = L.marker(
+                [-8.042955,-34.884789],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_2385baaac5634d7cae39078627b54e2c);
+            
+    
+
+                var icon_4422ce6b2d8f4d9498581528f1bc2e8b = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_61aaa1fbf62b4d5e896c9c4b8b584ab5.setIcon(icon_4422ce6b2d8f4d9498581528f1bc2e8b);
+            
+    
+            var popup_e30c3d5261d1473eb525e71f620392f1 = L.popup({maxWidth: '300'});
+
+            
+                var html_b83b585deb744c7e806a39298c13a08a = $('<div id="html_b83b585deb744c7e806a39298c13a08a" style="width: 100.0%; height: 100.0%;">Av. Agamenon Magalhães - sentido Olinda (...Câmera 152...)</div>')[0];
+                popup_e30c3d5261d1473eb525e71f620392f1.setContent(html_b83b585deb744c7e806a39298c13a08a);
+            
+
+            marker_61aaa1fbf62b4d5e896c9c4b8b584ab5.bindPopup(popup_e30c3d5261d1473eb525e71f620392f1);
+
+            
+        
+    
+
+            var marker_514656d0705b4891bab4809a10f23107 = L.marker(
+                [-8.108781,-34.888551],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_2385baaac5634d7cae39078627b54e2c);
+            
+    
+
+                var icon_8ab5164c74c74105bf6530e4f8d9d0c8 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_514656d0705b4891bab4809a10f23107.setIcon(icon_8ab5164c74c74105bf6530e4f8d9d0c8);
+            
+    
+            var popup_90b6261abaae4c829c22f03191a3feeb = L.popup({maxWidth: '300'});
+
+            
+                var html_88a4eef2ca4e42f5a58acd06c4136fa3 = $('<div id="html_88a4eef2ca4e42f5a58acd06c4136fa3" style="width: 100.0%; height: 100.0%;">Av. Boa Viagem - 3º Jardim (...Câmera 153...)</div>')[0];
+                popup_90b6261abaae4c829c22f03191a3feeb.setContent(html_88a4eef2ca4e42f5a58acd06c4136fa3);
+            
+
+            marker_514656d0705b4891bab4809a10f23107.bindPopup(popup_90b6261abaae4c829c22f03191a3feeb);
+
+            
+        
+    
+
+            var marker_fc5a777de19343cf9f2e14f10bc068b3 = L.marker(
+                [-8.063758,-34.934995],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_2385baaac5634d7cae39078627b54e2c);
+            
+    
+
+                var icon_a05673212b774da185844a13a5b8e561 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_fc5a777de19343cf9f2e14f10bc068b3.setIcon(icon_a05673212b774da185844a13a5b8e561);
+            
+    
+            var popup_fadb6e4ca1be40b497be2931fb00dd51 = L.popup({maxWidth: '300'});
+
+            
+                var html_08dbcb23b9e2461094cfd7d1323e9e22 = $('<div id="html_08dbcb23b9e2461094cfd7d1323e9e22" style="width: 100.0%; height: 100.0%;">Av Engenhriro Abdias de Carvalho - próx à lombada eletrônica (...Câmera 154...)</div>')[0];
+                popup_fadb6e4ca1be40b497be2931fb00dd51.setContent(html_08dbcb23b9e2461094cfd7d1323e9e22);
+            
+
+            marker_fc5a777de19343cf9f2e14f10bc068b3.bindPopup(popup_fadb6e4ca1be40b497be2931fb00dd51);
+
+            
+        
+    
+
+            var marker_3092503774db45a89f6db19b7683643f = L.marker(
+                [-8.13007,-34.915872],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_2385baaac5634d7cae39078627b54e2c);
+            
+    
+
+                var icon_846dcc8827ba41e3b873a62ab31bb337 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_3092503774db45a89f6db19b7683643f.setIcon(icon_846dcc8827ba41e3b873a62ab31bb337);
+            
+    
+            var popup_921edf9b784742ae837377b79a34879c = L.popup({maxWidth: '300'});
+
+            
+                var html_6699d774978f4108a61d9644a419db29 = $('<div id="html_6699d774978f4108a61d9644a419db29" style="width: 100.0%; height: 100.0%;">Av. Mascarenhas de Moraes - próx. ao Aeroporto Internacional do Guararapes (...Câmera 155...)</div>')[0];
+                popup_921edf9b784742ae837377b79a34879c.setContent(html_6699d774978f4108a61d9644a419db29);
+            
+
+            marker_3092503774db45a89f6db19b7683643f.bindPopup(popup_921edf9b784742ae837377b79a34879c);
+
+            
+        
+    
+
+            var marker_48829f83b20242e58656f4efa6de0955 = L.marker(
+                [-8.099239,-34.928312],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_2385baaac5634d7cae39078627b54e2c);
+            
+    
+
+                var icon_d27321b77eb04aaebbea26de6b4028ff = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_48829f83b20242e58656f4efa6de0955.setIcon(icon_d27321b77eb04aaebbea26de6b4028ff);
+            
+    
+            var popup_43d750328a384a94bff302a639e432dc = L.popup({maxWidth: '300'});
+
+            
+                var html_80b77619acf34284a6a8f741125537e7 = $('<div id="html_80b77619acf34284a6a8f741125537e7" style="width: 100.0%; height: 100.0%;">Av Recife - próx. ao Supermercado Hiper Bompreço (...Câmera 156...)</div>')[0];
+                popup_43d750328a384a94bff302a639e432dc.setContent(html_80b77619acf34284a6a8f741125537e7);
+            
+
+            marker_48829f83b20242e58656f4efa6de0955.bindPopup(popup_43d750328a384a94bff302a639e432dc);
+
+            
+        
+    
+
+            var marker_9a67a8c1cd9a421e9a0c665c8640b6fc = L.marker(
+                [-8.048875,-34.877896],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_2385baaac5634d7cae39078627b54e2c);
+            
+    
+
+                var icon_02841178c7ba4b01bad5b35d11f48ce9 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_9a67a8c1cd9a421e9a0c665c8640b6fc.setIcon(icon_02841178c7ba4b01bad5b35d11f48ce9);
+            
+    
+            var popup_b3abf1a1ba9f4c83b47f765cc229b512 = L.popup({maxWidth: '300'});
+
+            
+                var html_aa3fa8edd2a247e9aa98a4d0cfb45da2 = $('<div id="html_aa3fa8edd2a247e9aa98a4d0cfb45da2" style="width: 100.0%; height: 100.0%;">Av. Cruz Cabugá - próx. à rua Frei Cassimiro (...Câmera 157...)</div>')[0];
+                popup_b3abf1a1ba9f4c83b47f765cc229b512.setContent(html_aa3fa8edd2a247e9aa98a4d0cfb45da2);
+            
+
+            marker_9a67a8c1cd9a421e9a0c665c8640b6fc.bindPopup(popup_b3abf1a1ba9f4c83b47f765cc229b512);
+
+            
+        
+    
+
+            var marker_0df433b4c2e44139bb73827ee03665d5 = L.marker(
+                [-8.09196,-34.882156],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_2385baaac5634d7cae39078627b54e2c);
+            
+    
+
+                var icon_5ac23dce9c9c4b5bb219f4c8dc2b9ebb = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_0df433b4c2e44139bb73827ee03665d5.setIcon(icon_5ac23dce9c9c4b5bb219f4c8dc2b9ebb);
+            
+    
+            var popup_5a804dc2f3be4f37896cb7cae62b53af = L.popup({maxWidth: '300'});
+
+            
+                var html_35e0bd41f01746feb8bd1e874cdee534 = $('<div id="html_35e0bd41f01746feb8bd1e874cdee534" style="width: 100.0%; height: 100.0%;">Av. Boa Viagem - Polo Pina (...Câmera 158...)</div>')[0];
+                popup_5a804dc2f3be4f37896cb7cae62b53af.setContent(html_35e0bd41f01746feb8bd1e874cdee534);
+            
+
+            marker_0df433b4c2e44139bb73827ee03665d5.bindPopup(popup_5a804dc2f3be4f37896cb7cae62b53af);
+
+            
+        
+    
+
+            var marker_877b09a760c140088c39b41e544b9d04 = L.marker(
+                [-8.130581,-34.90253],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_2385baaac5634d7cae39078627b54e2c);
+            
+    
+
+                var icon_419cdff3e323466589ee82f911de84bc = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_877b09a760c140088c39b41e544b9d04.setIcon(icon_419cdff3e323466589ee82f911de84bc);
+            
+    
+            var popup_31a037be0e994514aba0e8d30fb0e2b7 = L.popup({maxWidth: '300'});
+
+            
+                var html_8e1e239183ea435e864b49ab23494b05 = $('<div id="html_8e1e239183ea435e864b49ab23494b05" style="width: 100.0%; height: 100.0%;">Av. Visconde de Jequitinhonha - próx. à Rua Barão de Souza Leão (...Câmera 159...)</div>')[0];
+                popup_31a037be0e994514aba0e8d30fb0e2b7.setContent(html_8e1e239183ea435e864b49ab23494b05);
+            
+
+            marker_877b09a760c140088c39b41e544b9d04.bindPopup(popup_31a037be0e994514aba0e8d30fb0e2b7);
+
+            
+        
+    
+
+            var marker_d2d7992a00e94bbdbc6047681a56d2f7 = L.marker(
+                [-8.076826,-34.894728],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_2385baaac5634d7cae39078627b54e2c);
+            
+    
+
+                var icon_73795157d5824016b69e563cc3625bd9 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_d2d7992a00e94bbdbc6047681a56d2f7.setIcon(icon_73795157d5824016b69e563cc3625bd9);
+            
+    
+            var popup_93f59f49c04541d2b6284f857e7b9af3 = L.popup({maxWidth: '300'});
+
+            
+                var html_78ca1f9fd40f41c7a418dfc69cd41054 = $('<div id="html_78ca1f9fd40f41c7a418dfc69cd41054" style="width: 100.0%; height: 100.0%;">Av. Sul (...Câmera 160...)</div>')[0];
+                popup_93f59f49c04541d2b6284f857e7b9af3.setContent(html_78ca1f9fd40f41c7a418dfc69cd41054);
+            
+
+            marker_d2d7992a00e94bbdbc6047681a56d2f7.bindPopup(popup_93f59f49c04541d2b6284f857e7b9af3);
+
+            
+        
+    
+
+            var marker_75a6263c7411479688b5ed9cc6d4800f = L.marker(
+                [-8.063617,-34.873652],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_2385baaac5634d7cae39078627b54e2c);
+            
+    
+
+                var icon_8acc71a47ed94b4b98e9cfe89dd37fc0 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_75a6263c7411479688b5ed9cc6d4800f.setIcon(icon_8acc71a47ed94b4b98e9cfe89dd37fc0);
+            
+    
+            var popup_cf32ab31c1b84ac9b8bde96835bc4b8d = L.popup({maxWidth: '300'});
+
+            
+                var html_86cc77d52ed040d0870f92d2b6a351a8 = $('<div id="html_86cc77d52ed040d0870f92d2b6a351a8" style="width: 100.0%; height: 100.0%;">Rua Madre de Deus x Rua Marquês de Olinda (...Câmera 161...)</div>')[0];
+                popup_cf32ab31c1b84ac9b8bde96835bc4b8d.setContent(html_86cc77d52ed040d0870f92d2b6a351a8);
+            
+
+            marker_75a6263c7411479688b5ed9cc6d4800f.bindPopup(popup_cf32ab31c1b84ac9b8bde96835bc4b8d);
+
+            
+        
+    
+
+            var marker_973c9c4e6867405fb38015d98049be99 = L.marker(
+                [-8.105273,-34.889512],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_2385baaac5634d7cae39078627b54e2c);
+            
+    
+
+                var icon_072f137aacc34513b9ed4d10f77b5695 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_973c9c4e6867405fb38015d98049be99.setIcon(icon_072f137aacc34513b9ed4d10f77b5695);
+            
+    
+            var popup_b4a86b6899c94602b5e71e58c6aefc49 = L.popup({maxWidth: '300'});
+
+            
+                var html_eb3f67762af041c3bc768f2e47dfe467 = $('<div id="html_eb3f67762af041c3bc768f2e47dfe467" style="width: 100.0%; height: 100.0%;">Av. Domingos Ferreira em frente ao Extra (...Câmera 162...)</div>')[0];
+                popup_b4a86b6899c94602b5e71e58c6aefc49.setContent(html_eb3f67762af041c3bc768f2e47dfe467);
+            
+
+            marker_973c9c4e6867405fb38015d98049be99.bindPopup(popup_b4a86b6899c94602b5e71e58c6aefc49);
+
+            
+        
+    
+
+            var marker_457f2f9850ee4abdadcb888d9baf2005 = L.marker(
+                [-8.056638,-34.897664],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_2385baaac5634d7cae39078627b54e2c);
+            
+    
+
+                var icon_196ef9c8dae649dcaa911984cf0f8e51 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_457f2f9850ee4abdadcb888d9baf2005.setIcon(icon_196ef9c8dae649dcaa911984cf0f8e51);
+            
+    
+            var popup_9ccfee47dae74a9d83bb37f497f212a0 = L.popup({maxWidth: '300'});
+
+            
+                var html_9255c3abc867412da4686577d7bebd8f = $('<div id="html_9255c3abc867412da4686577d7bebd8f" style="width: 100.0%; height: 100.0%;">Av. Agamenon Magalhães x Praça do Derby - Sent. Olinda (...Câmera 163...)</div>')[0];
+                popup_9ccfee47dae74a9d83bb37f497f212a0.setContent(html_9255c3abc867412da4686577d7bebd8f);
+            
+
+            marker_457f2f9850ee4abdadcb888d9baf2005.bindPopup(popup_9ccfee47dae74a9d83bb37f497f212a0);
+
+            
+        
+    
+
+            var marker_d432ddef070c4ee2ba28b88aab03b3df = L.marker(
+                [-8.079051,-34.891956],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_2385baaac5634d7cae39078627b54e2c);
+            
+    
+
+                var icon_3133fa58cae14d4ab97e4d4a1bb29897 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_d432ddef070c4ee2ba28b88aab03b3df.setIcon(icon_3133fa58cae14d4ab97e4d4a1bb29897);
+            
+    
+            var popup_41249d1f8b4e4705b12ada5ec7b25e6b = L.popup({maxWidth: '300'});
+
+            
+                var html_e1eb87233d784632875c392dcec3d334 = $('<div id="html_e1eb87233d784632875c392dcec3d334" style="width: 100.0%; height: 100.0%;">Largo do Cabanga - Joana Bezerra (...Câmera 164...)</div>')[0];
+                popup_41249d1f8b4e4705b12ada5ec7b25e6b.setContent(html_e1eb87233d784632875c392dcec3d334);
+            
+
+            marker_d432ddef070c4ee2ba28b88aab03b3df.bindPopup(popup_41249d1f8b4e4705b12ada5ec7b25e6b);
+
+            
+        
+    
+
+            var marker_665be8a3da7241d5af24d2c8cb7c70aa = L.marker(
+                [-8.057498,-34.890191],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_2385baaac5634d7cae39078627b54e2c);
+            
+    
+
+                var icon_89dff57280ad44999c95c73213273775 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_665be8a3da7241d5af24d2c8cb7c70aa.setIcon(icon_89dff57280ad44999c95c73213273775);
+            
+    
+            var popup_3950ac43e5c84f84859e36277967c654 = L.popup({maxWidth: '300'});
+
+            
+                var html_f7de92e15aae430595af1ce39cbf683c = $('<div id="html_f7de92e15aae430595af1ce39cbf683c" style="width: 100.0%; height: 100.0%;">Av. Conde da Boa Vista x Rua da Soledade (...Câmera 165...)</div>')[0];
+                popup_3950ac43e5c84f84859e36277967c654.setContent(html_f7de92e15aae430595af1ce39cbf683c);
+            
+
+            marker_665be8a3da7241d5af24d2c8cb7c70aa.bindPopup(popup_3950ac43e5c84f84859e36277967c654);
+
+            
+        
+    
+
+            var marker_d564b11443ac4a3d88617ee047d8b372 = L.marker(
+                [-8.0606,-34.884183],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_2385baaac5634d7cae39078627b54e2c);
+            
+    
+
+                var icon_cd1dfa6bb91c4640beff59023268ad82 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_d564b11443ac4a3d88617ee047d8b372.setIcon(icon_cd1dfa6bb91c4640beff59023268ad82);
+            
+    
+            var popup_cbee7dc31b66436083ce5daf03bb8e43 = L.popup({maxWidth: '300'});
+
+            
+                var html_718cbaf1301a4be1b21271e3c2a222e1 = $('<div id="html_718cbaf1301a4be1b21271e3c2a222e1" style="width: 100.0%; height: 100.0%;">Av. Conde da Boa Vista x Rua do Hospício (...Câmera 166...)</div>')[0];
+                popup_cbee7dc31b66436083ce5daf03bb8e43.setContent(html_718cbaf1301a4be1b21271e3c2a222e1);
+            
+
+            marker_d564b11443ac4a3d88617ee047d8b372.bindPopup(popup_cbee7dc31b66436083ce5daf03bb8e43);
+
+            
+        
+    
+
+            var marker_6ff958f2af63437f81c465a33e1e2c17 = L.marker(
+                [-8.055915,-34.895499],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_2385baaac5634d7cae39078627b54e2c);
+            
+    
+
+                var icon_f98f615afd9d432193c48bc90912f664 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_6ff958f2af63437f81c465a33e1e2c17.setIcon(icon_f98f615afd9d432193c48bc90912f664);
+            
+    
+            var popup_0fa7c22eb4a14a259a180b3b3a9b060e = L.popup({maxWidth: '300'});
+
+            
+                var html_efe195fc1201425c87fa39f16a4b8f8d = $('<div id="html_efe195fc1201425c87fa39f16a4b8f8d" style="width: 100.0%; height: 100.0%;">Av. Conde da Boa Vista x Rua Dom Bosco (...Câmera 167...)</div>')[0];
+                popup_0fa7c22eb4a14a259a180b3b3a9b060e.setContent(html_efe195fc1201425c87fa39f16a4b8f8d);
+            
+
+            marker_6ff958f2af63437f81c465a33e1e2c17.bindPopup(popup_0fa7c22eb4a14a259a180b3b3a9b060e);
+
+            
+        
+    
+
+            var marker_caf927aa39864dcb95e83430282e91c2 = L.marker(
+                [-8.141328,-34.903406],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_2385baaac5634d7cae39078627b54e2c);
+            
+    
+
+                var icon_7e1a183bf46e4483afa8c00092a21a47 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_caf927aa39864dcb95e83430282e91c2.setIcon(icon_7e1a183bf46e4483afa8c00092a21a47);
+            
+    
+            var popup_5a567a4dc13e42b598b0b86f7dee9de6 = L.popup({maxWidth: '300'});
+
+            
+                var html_ca64321596c4465dbecb866d0ea2389a = $('<div id="html_ca64321596c4465dbecb866d0ea2389a" style="width: 100.0%; height: 100.0%;">Av. Boa Viagem em frente Parque Dona Lindu (...Câmera 168...)</div>')[0];
+                popup_5a567a4dc13e42b598b0b86f7dee9de6.setContent(html_ca64321596c4465dbecb866d0ea2389a);
+            
+
+            marker_caf927aa39864dcb95e83430282e91c2.bindPopup(popup_5a567a4dc13e42b598b0b86f7dee9de6);
+
+            
+        
+    
+
+            var marker_f4ae01edaf234b70a66aaf79948db29f = L.marker(
+                [-8.03891,-34.930443],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_2385baaac5634d7cae39078627b54e2c);
+            
+    
+
+                var icon_09f3f2819bad4d99a9b8cd9263b5465e = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_f4ae01edaf234b70a66aaf79948db29f.setIcon(icon_09f3f2819bad4d99a9b8cd9263b5465e);
+            
+    
+            var popup_e3072a060eb948e88592c5674f30e5ab = L.popup({maxWidth: '300'});
+
+            
+                var html_0df247cb0e4548edb31eab88e91a58c6 = $('<div id="html_0df247cb0e4548edb31eab88e91a58c6" style="width: 100.0%; height: 100.0%;">Av. Maurício de Nassau (...Câmera 170...)</div>')[0];
+                popup_e3072a060eb948e88592c5674f30e5ab.setContent(html_0df247cb0e4548edb31eab88e91a58c6);
+            
+
+            marker_f4ae01edaf234b70a66aaf79948db29f.bindPopup(popup_e3072a060eb948e88592c5674f30e5ab);
+
+            
+        
+    
+
+            var marker_8bc965bc13b74273807ccc79189d3576 = L.marker(
+                [-8.039688,-34.957694],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_2385baaac5634d7cae39078627b54e2c);
+            
+    
+
+                var icon_42237396fe704ec6a4dcb66e109aa5d1 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_8bc965bc13b74273807ccc79189d3576.setIcon(icon_42237396fe704ec6a4dcb66e109aa5d1);
+            
+    
+            var popup_938c3e8f1fe44189bde9200547d83a5c = L.popup({maxWidth: '300'});
+
+            
+                var html_334814f9d7dd4f76a5634747ff3531a8 = $('<div id="html_334814f9d7dd4f76a5634747ff3531a8" style="width: 100.0%; height: 100.0%;">Av. Afonso Olindense (...Câmera 171...)</div>')[0];
+                popup_938c3e8f1fe44189bde9200547d83a5c.setContent(html_334814f9d7dd4f76a5634747ff3531a8);
+            
+
+            marker_8bc965bc13b74273807ccc79189d3576.bindPopup(popup_938c3e8f1fe44189bde9200547d83a5c);
+
+            
+        
+    
+
+            var marker_45bce1767bb34bbfa2fe58aa11110c86 = L.marker(
+                [-8.101464,-34.886929],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_2385baaac5634d7cae39078627b54e2c);
+            
+    
+
+                var icon_dbb553f2ca5d4cf9bb7dffc624dd3d37 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_45bce1767bb34bbfa2fe58aa11110c86.setIcon(icon_dbb553f2ca5d4cf9bb7dffc624dd3d37);
+            
+    
+            var popup_687689873fe149e893c71ee764a1b00c = L.popup({maxWidth: '300'});
+
+            
+                var html_753fde47815f4651bd3ad2c27675a31f = $('<div id="html_753fde47815f4651bd3ad2c27675a31f" style="width: 100.0%; height: 100.0%;">Av. Conselheiro Aguiar - Conj. Pernambucano (...Câmera 172...)</div>')[0];
+                popup_687689873fe149e893c71ee764a1b00c.setContent(html_753fde47815f4651bd3ad2c27675a31f);
+            
+
+            marker_45bce1767bb34bbfa2fe58aa11110c86.bindPopup(popup_687689873fe149e893c71ee764a1b00c);
+
+            
+        
+    
+
+            var marker_e49dcdee2236404ba822407583aeb393 = L.marker(
+                [-8.06772,-34.927883],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_2385baaac5634d7cae39078627b54e2c);
+            
+    
+
+                var icon_ec0079b51c2d49628d8c700eb471fb4e = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_e49dcdee2236404ba822407583aeb393.setIcon(icon_ec0079b51c2d49628d8c700eb471fb4e);
+            
+    
+            var popup_7ab5cac95eef407ea60e98ea6fe46095 = L.popup({maxWidth: '300'});
+
+            
+                var html_3a7ad853c40a4eef8b7313f39ad37ab4 = $('<div id="html_3a7ad853c40a4eef8b7313f39ad37ab4" style="width: 100.0%; height: 100.0%;">Av. General San Martin (...Câmera 173...)</div>')[0];
+                popup_7ab5cac95eef407ea60e98ea6fe46095.setContent(html_3a7ad853c40a4eef8b7313f39ad37ab4);
+            
+
+            marker_e49dcdee2236404ba822407583aeb393.bindPopup(popup_7ab5cac95eef407ea60e98ea6fe46095);
+
+            
+        
+    
+
+            var marker_e9188c0edc9e4266827e9f2901055f93 = L.marker(
+                [-8.130484,-34.902077],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_2385baaac5634d7cae39078627b54e2c);
+            
+    
+
+                var icon_f82f111577634a5b8edabe2f229d7217 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_e9188c0edc9e4266827e9f2901055f93.setIcon(icon_f82f111577634a5b8edabe2f229d7217);
+            
+    
+            var popup_5c3e7392d98d4dfd887dccfeb393e9ff = L.popup({maxWidth: '300'});
+
+            
+                var html_40b079d7e19a4eef88874db2c88c670f = $('<div id="html_40b079d7e19a4eef88874db2c88c670f" style="width: 100.0%; height: 100.0%;">Av. Domingos Ferreira - Próximo ao Bom Preço (...Câmera 174...)</div>')[0];
+                popup_5c3e7392d98d4dfd887dccfeb393e9ff.setContent(html_40b079d7e19a4eef88874db2c88c670f);
+            
+
+            marker_e9188c0edc9e4266827e9f2901055f93.bindPopup(popup_5c3e7392d98d4dfd887dccfeb393e9ff);
+
+            
+        
+    
+
+            var marker_d80b05a5cfe84fb48472f75cb3577859 = L.marker(
+                [-8.04219,-34.884856],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_2385baaac5634d7cae39078627b54e2c);
+            
+    
+
+                var icon_0792b0422f004191986bbff4b3261dcf = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_d80b05a5cfe84fb48472f75cb3577859.setIcon(icon_0792b0422f004191986bbff4b3261dcf);
+            
+    
+            var popup_0e9bccf0bb1140f1a2724bc1c4a6755e = L.popup({maxWidth: '300'});
+
+            
+                var html_afed83f8f86c425faa55a41380d609dc = $('<div id="html_afed83f8f86c425faa55a41380d609dc" style="width: 100.0%; height: 100.0%;">Av. Agamenon Magalhães - Sent. Boa Viagem (...Câmera 175...)</div>')[0];
+                popup_0e9bccf0bb1140f1a2724bc1c4a6755e.setContent(html_afed83f8f86c425faa55a41380d609dc);
+            
+
+            marker_d80b05a5cfe84fb48472f75cb3577859.bindPopup(popup_0e9bccf0bb1140f1a2724bc1c4a6755e);
+
+            
+        
+    
+
+            var marker_2e46561e417e4275b212e78dffe05288 = L.marker(
+                [-8.038517,-34.892231],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_2385baaac5634d7cae39078627b54e2c);
+            
+    
+
+                var icon_00a0a0df19d74f45b9db2e848eeafc2c = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_2e46561e417e4275b212e78dffe05288.setIcon(icon_00a0a0df19d74f45b9db2e848eeafc2c);
+            
+    
+            var popup_1818b87b4c4a482bb06e356077d7be52 = L.popup({maxWidth: '300'});
+
+            
+                var html_1d6579c259e04dfdb9026da4f705e173 = $('<div id="html_1d6579c259e04dfdb9026da4f705e173" style="width: 100.0%; height: 100.0%;">Av. Norte - Próximo à Av. João de Barros (...Câmera 176...)</div>')[0];
+                popup_1818b87b4c4a482bb06e356077d7be52.setContent(html_1d6579c259e04dfdb9026da4f705e173);
+            
+
+            marker_2e46561e417e4275b212e78dffe05288.bindPopup(popup_1818b87b4c4a482bb06e356077d7be52);
+
+            
+        
+    
+
+            var marker_9f52a327562b4941b07cf0a7f85ee384 = L.marker(
+                [-8.119406,-34.8965],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_2385baaac5634d7cae39078627b54e2c);
+            
+    
+
+                var icon_0aa2ea8581994367aebe70f4565a9fd6 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_9f52a327562b4941b07cf0a7f85ee384.setIcon(icon_0aa2ea8581994367aebe70f4565a9fd6);
+            
+    
+            var popup_9c9ec3fed7a84f0b99e11fcae28ece48 = L.popup({maxWidth: '300'});
+
+            
+                var html_e28dd3069800411caea497eb75df32e2 = $('<div id="html_e28dd3069800411caea497eb75df32e2" style="width: 100.0%; height: 100.0%;">Av. Conselheiro Aguiar - Próximo à rua Padre Carapuceiro (...Câmera 177...)</div>')[0];
+                popup_9c9ec3fed7a84f0b99e11fcae28ece48.setContent(html_e28dd3069800411caea497eb75df32e2);
+            
+
+            marker_9f52a327562b4941b07cf0a7f85ee384.bindPopup(popup_9c9ec3fed7a84f0b99e11fcae28ece48);
+
+            
+        
+    
+
+            var marker_b73f0aaf7d9546a1a0e61c65d1e23e55 = L.marker(
+                [-8.071233,-34.895588],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_2385baaac5634d7cae39078627b54e2c);
+            
+    
+
+                var icon_34534b8ea78b40f4802114294cdee137 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_b73f0aaf7d9546a1a0e61c65d1e23e55.setIcon(icon_34534b8ea78b40f4802114294cdee137);
+            
+    
+            var popup_2c6cc52d5c6d499dbf309544f5ec74df = L.popup({maxWidth: '300'});
+
+            
+                var html_9559c6072a9947ffb86d8cf02e50bf72 = $('<div id="html_9559c6072a9947ffb86d8cf02e50bf72" style="width: 100.0%; height: 100.0%;">Viaduto Capitão Temudo (...Câmera 178...)</div>')[0];
+                popup_2c6cc52d5c6d499dbf309544f5ec74df.setContent(html_9559c6072a9947ffb86d8cf02e50bf72);
+            
+
+            marker_b73f0aaf7d9546a1a0e61c65d1e23e55.bindPopup(popup_2c6cc52d5c6d499dbf309544f5ec74df);
+
+            
+        
+    
+
+            var marker_3124e379024e4d419a3fab3787cf43d6 = L.marker(
+                [-8.093111,-34.943079],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_2385baaac5634d7cae39078627b54e2c);
+            
+    
+
+                var icon_31eb189d3c0a4efc814c3ddefc9ba5b7 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_3124e379024e4d419a3fab3787cf43d6.setIcon(icon_31eb189d3c0a4efc814c3ddefc9ba5b7);
+            
+    
+            var popup_222020c4d92945fea9e69e98fbb342f6 = L.popup({maxWidth: '300'});
+
+            
+                var html_05da97cfc15942b78b05ec5fe98e651a = $('<div id="html_05da97cfc15942b78b05ec5fe98e651a" style="width: 100.0%; height: 100.0%;">A. Dr. José Rufino - em frente à Igreja (...Câmera 179...)</div>')[0];
+                popup_222020c4d92945fea9e69e98fbb342f6.setContent(html_05da97cfc15942b78b05ec5fe98e651a);
+            
+
+            marker_3124e379024e4d419a3fab3787cf43d6.bindPopup(popup_222020c4d92945fea9e69e98fbb342f6);
+
+            
+        
+    
+
+            var marker_2789b435d9664f46800cf2f72b7eb5f3 = L.marker(
+                [-8.1069,-34.927153],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_2385baaac5634d7cae39078627b54e2c);
+            
+    
+
+                var icon_144bb1a86cbc452189581cc3715737a8 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_2789b435d9664f46800cf2f72b7eb5f3.setIcon(icon_144bb1a86cbc452189581cc3715737a8);
+            
+    
+            var popup_08b82e10d4da43d485f52d6117f37def = L.popup({maxWidth: '300'});
+
+            
+                var html_393b683c4e9a4cf4ad33673d36e24a66 = $('<div id="html_393b683c4e9a4cf4ad33673d36e24a66" style="width: 100.0%; height: 100.0%;">Av. Recife - Entrada do Ibura (...Câmera 180...)</div>')[0];
+                popup_08b82e10d4da43d485f52d6117f37def.setContent(html_393b683c4e9a4cf4ad33673d36e24a66);
+            
+
+            marker_2789b435d9664f46800cf2f72b7eb5f3.bindPopup(popup_08b82e10d4da43d485f52d6117f37def);
+
+            
+        
+    
+
+            var marker_1704560c1eee4e079adf2096d417d654 = L.marker(
+                [-8.085441,-34.886747],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_2385baaac5634d7cae39078627b54e2c);
+            
+    
+
+                var icon_73f113ba598f44bb822595a6eba9769b = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_1704560c1eee4e079adf2096d417d654.setIcon(icon_73f113ba598f44bb822595a6eba9769b);
+            
+    
+            var popup_5bb06405856b4619b76208384074d328 = L.popup({maxWidth: '300'});
+
+            
+                var html_e55abab6d3074129ae6984af111f9b97 = $('<div id="html_e55abab6d3074129ae6984af111f9b97" style="width: 100.0%; height: 100.0%;">Av. Antônio de Góes - Próximo ao Posto BR (...Câmera 181...)</div>')[0];
+                popup_5bb06405856b4619b76208384074d328.setContent(html_e55abab6d3074129ae6984af111f9b97);
+            
+
+            marker_1704560c1eee4e079adf2096d417d654.bindPopup(popup_5bb06405856b4619b76208384074d328);
+
+            
+        
+    
+
+            var marker_04ba9eca69e247a5808ba0dc6b61aa7a = L.marker(
+                [-8.063651,-34.897546],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_2385baaac5634d7cae39078627b54e2c);
+            
+    
+
+                var icon_ddf9587976dc463bada143b3916ee9e3 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_04ba9eca69e247a5808ba0dc6b61aa7a.setIcon(icon_ddf9587976dc463bada143b3916ee9e3);
+            
+    
+            var popup_214b5415462d46c7a5e9b0be1eac21b3 = L.popup({maxWidth: '300'});
+
+            
+                var html_d28859fd025f4e1581d05e38fbe64d63 = $('<div id="html_d28859fd025f4e1581d05e38fbe64d63" style="width: 100.0%; height: 100.0%;">Av. Agamenon Magalhães - em frente ao Hospital Português (...Câmera 182...)</div>')[0];
+                popup_214b5415462d46c7a5e9b0be1eac21b3.setContent(html_d28859fd025f4e1581d05e38fbe64d63);
+            
+
+            marker_04ba9eca69e247a5808ba0dc6b61aa7a.bindPopup(popup_214b5415462d46c7a5e9b0be1eac21b3);
+
+            
+        
+    
+
+            var marker_dc08888bd6d843d7a29f95812fa15b44 = L.marker(
+                [-8.062616,-34.897217],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_2385baaac5634d7cae39078627b54e2c);
+            
+    
+
+                var icon_93f455ff34b447ff900646601f91bd88 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_dc08888bd6d843d7a29f95812fa15b44.setIcon(icon_93f455ff34b447ff900646601f91bd88);
+            
+    
+            var popup_da0bd251db9a4f98b93ba1014c290dc3 = L.popup({maxWidth: '300'});
+
+            
+                var html_80b4289be90c4108853b573ee85d91e8 = $('<div id="html_80b4289be90c4108853b573ee85d91e8" style="width: 100.0%; height: 100.0%;">Av. Agamenon Magalhães - Próximo aos Bancos Itaú (...Câmera 183...)</div>')[0];
+                popup_da0bd251db9a4f98b93ba1014c290dc3.setContent(html_80b4289be90c4108853b573ee85d91e8);
+            
+
+            marker_dc08888bd6d843d7a29f95812fa15b44.bindPopup(popup_da0bd251db9a4f98b93ba1014c290dc3);
+
+            
+        
+    
+
+            var marker_6b59100e563147059592350cf62ff837 = L.marker(
+                [-8.048904,-34.892814],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_2385baaac5634d7cae39078627b54e2c);
+            
+    
+
+                var icon_4fc2bae0c8a04153b2e7dd94a94f8219 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_6b59100e563147059592350cf62ff837.setIcon(icon_4fc2bae0c8a04153b2e7dd94a94f8219);
+            
+    
+            var popup_0da67cff9f5e430681e77d6b5eba2d61 = L.popup({maxWidth: '300'});
+
+            
+                var html_cb8477fad62c4a5ea3325b99349d74da = $('<div id="html_cb8477fad62c4a5ea3325b99349d74da" style="width: 100.0%; height: 100.0%;">Av. Agamenon Magalhães x Rua Dr. Leopoldo Lins (...Câmera 184...)</div>')[0];
+                popup_0da67cff9f5e430681e77d6b5eba2d61.setContent(html_cb8477fad62c4a5ea3325b99349d74da);
+            
+
+            marker_6b59100e563147059592350cf62ff837.bindPopup(popup_0da67cff9f5e430681e77d6b5eba2d61);
+
+            
+        
+    
+
+            var marker_d832c13c03a245d58b8418cd64519856 = L.marker(
+                [-8.048511,-34.893029],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_2385baaac5634d7cae39078627b54e2c);
+            
+    
+
+                var icon_d3ed5c0c2c974118a9590385f686e542 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_d832c13c03a245d58b8418cd64519856.setIcon(icon_d3ed5c0c2c974118a9590385f686e542);
+            
+    
+            var popup_0839c80dd4aa401bb5c5a41c64c84ff7 = L.popup({maxWidth: '300'});
+
+            
+                var html_e49874f0ac8643c89ec0993cf9c1fff0 = $('<div id="html_e49874f0ac8643c89ec0993cf9c1fff0" style="width: 100.0%; height: 100.0%;">Av. Agamenon Magalhães x Rua Buenos Aires (...Câmera 185...)</div>')[0];
+                popup_0839c80dd4aa401bb5c5a41c64c84ff7.setContent(html_e49874f0ac8643c89ec0993cf9c1fff0);
+            
+
+            marker_d832c13c03a245d58b8418cd64519856.bindPopup(popup_0839c80dd4aa401bb5c5a41c64c84ff7);
+
+            
+        
+    
+
+            var marker_2db622cef975407595e6bbc12138f0d2 = L.marker(
+                [-8.044426,-34.89711],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_2385baaac5634d7cae39078627b54e2c);
+            
+    
+
+                var icon_391c677549a4414c838b7b62f8d394a1 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_2db622cef975407595e6bbc12138f0d2.setIcon(icon_391c677549a4414c838b7b62f8d394a1);
+            
+    
+            var popup_bbe390ab38c549529b4ca7e8640d911a = L.popup({maxWidth: '300'});
+
+            
+                var html_4515b977e7ac4c8f978a099979f026b7 = $('<div id="html_4515b977e7ac4c8f978a099979f026b7" style="width: 100.0%; height: 100.0%;">Av. Conselheiro Rosa e Silva (...Câmera 186...)</div>')[0];
+                popup_bbe390ab38c549529b4ca7e8640d911a.setContent(html_4515b977e7ac4c8f978a099979f026b7);
+            
+
+            marker_2db622cef975407595e6bbc12138f0d2.bindPopup(popup_bbe390ab38c549529b4ca7e8640d911a);
+
+            
+        
+    
+
+            var marker_eafa33b3669b4ad4b6f49c1a9ab54fa5 = L.marker(
+                [-8.056573,-34.898079],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_2385baaac5634d7cae39078627b54e2c);
+            
+    
+
+                var icon_ffb2b6a8e6f44462bc196d681e50d1e6 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_eafa33b3669b4ad4b6f49c1a9ab54fa5.setIcon(icon_ffb2b6a8e6f44462bc196d681e50d1e6);
+            
+    
+            var popup_2153e3d7f59b408e8d1881948391daec = L.popup({maxWidth: '300'});
+
+            
+                var html_ecc065f40c29436cb64d7aacdea10ea5 = $('<div id="html_ecc065f40c29436cb64d7aacdea10ea5" style="width: 100.0%; height: 100.0%;">Av. Agamenon Magalhães - Praça do Derby Sent. Boa Viagem (...Câmera 187...)</div>')[0];
+                popup_2153e3d7f59b408e8d1881948391daec.setContent(html_ecc065f40c29436cb64d7aacdea10ea5);
+            
+
+            marker_eafa33b3669b4ad4b6f49c1a9ab54fa5.bindPopup(popup_2153e3d7f59b408e8d1881948391daec);
+
+            
+        
+    
+
+            var marker_a4d62d2636684073b068e52b6c69806f = L.marker(
+                [-8.077012,-34.890408],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_2385baaac5634d7cae39078627b54e2c);
+            
+    
+
+                var icon_452e3e91d16c4fd0a45b62e9988b0176 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_a4d62d2636684073b068e52b6c69806f.setIcon(icon_452e3e91d16c4fd0a45b62e9988b0176);
+            
+    
+            var popup_283f7159906d4598a166d885de251795 = L.popup({maxWidth: '300'});
+
+            
+                var html_dcf530d7acb2467fa89008f3a2f55b45 = $('<div id="html_dcf530d7acb2467fa89008f3a2f55b45" style="width: 100.0%; height: 100.0%;">Av. Engenheiro José Estelita (...Câmera 188...)</div>')[0];
+                popup_283f7159906d4598a166d885de251795.setContent(html_dcf530d7acb2467fa89008f3a2f55b45);
+            
+
+            marker_a4d62d2636684073b068e52b6c69806f.bindPopup(popup_283f7159906d4598a166d885de251795);
+
+            
+        
+    
+
+            var marker_19e200bf62274b749c053ecfbe543173 = L.marker(
+                [-8.053504,-34.908757],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_2385baaac5634d7cae39078627b54e2c);
+            
+    
+
+                var icon_5fb3c8c19e5c452aa471f400f221e6f6 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_19e200bf62274b749c053ecfbe543173.setIcon(icon_5fb3c8c19e5c452aa471f400f221e6f6);
+            
+    
+            var popup_5881f11305224dddae87f9d6d1918401 = L.popup({maxWidth: '300'});
+
+            
+                var html_16b4f55a3cfd47798125bcec5b80bd8f = $('<div id="html_16b4f55a3cfd47798125bcec5b80bd8f" style="width: 100.0%; height: 100.0%;">Rua José Osório c/ Rua Real da Torre (...Câmera 189...)</div>')[0];
+                popup_5881f11305224dddae87f9d6d1918401.setContent(html_16b4f55a3cfd47798125bcec5b80bd8f);
+            
+
+            marker_19e200bf62274b749c053ecfbe543173.bindPopup(popup_5881f11305224dddae87f9d6d1918401);
+
+            
+        
+    
+
+            var marker_23fcee1b604b4343902c1dbeffa40cb9 = L.marker(
+                [-8.054072,-34.914245],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_2385baaac5634d7cae39078627b54e2c);
+            
+    
+
+                var icon_aa2c7ae4e18440639c5c353e56fa426d = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_23fcee1b604b4343902c1dbeffa40cb9.setIcon(icon_aa2c7ae4e18440639c5c353e56fa426d);
+            
+    
+            var popup_0079dc0c01eb4d4098c6233e20e280c9 = L.popup({maxWidth: '300'});
+
+            
+                var html_4dbb6f1facaa413aa74f918acb37735f = $('<div id="html_4dbb6f1facaa413aa74f918acb37735f" style="width: 100.0%; height: 100.0%;">R. Real da Torre c/ Av. Caxangá (...Câmera 190...)</div>')[0];
+                popup_0079dc0c01eb4d4098c6233e20e280c9.setContent(html_4dbb6f1facaa413aa74f918acb37735f);
+            
+
+            marker_23fcee1b604b4343902c1dbeffa40cb9.bindPopup(popup_0079dc0c01eb4d4098c6233e20e280c9);
+
+            
+        
+    
+
+            var marker_c9b0474812414fec91a0d3b3b67524e5 = L.marker(
+                [-8.087629,-34.884475],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_2385baaac5634d7cae39078627b54e2c);
+            
+    
+
+                var icon_4afec57e0d6c4fe48b4368dc8111b029 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_c9b0474812414fec91a0d3b3b67524e5.setIcon(icon_4afec57e0d6c4fe48b4368dc8111b029);
+            
+    
+            var popup_e53c59a032244b76b7411a2b7eadec3c = L.popup({maxWidth: '300'});
+
+            
+                var html_cab7b3703fdb45118a267f67b7408c42 = $('<div id="html_cab7b3703fdb45118a267f67b7408c42" style="width: 100.0%; height: 100.0%;">Av. Antônio de Góes - Início (...Câmera 191...)</div>')[0];
+                popup_e53c59a032244b76b7411a2b7eadec3c.setContent(html_cab7b3703fdb45118a267f67b7408c42);
+            
+
+            marker_c9b0474812414fec91a0d3b3b67524e5.bindPopup(popup_e53c59a032244b76b7411a2b7eadec3c);
+
+            
+        
+    
+
+            var marker_c00d7ca1fb6748c491d64ff606eea8bd = L.marker(
+                [-8.071536,-34.877373],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_2385baaac5634d7cae39078627b54e2c);
+            
+    
+
+                var icon_3af107f23b6a442dba240f5eb5cfc903 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_c00d7ca1fb6748c491d64ff606eea8bd.setIcon(icon_3af107f23b6a442dba240f5eb5cfc903);
+            
+    
+            var popup_9e4f5eccf2c54180a83743e67317f87f = L.popup({maxWidth: '300'});
+
+            
+                var html_28d9b1a5eff64e5ba055818550742e8c = $('<div id="html_28d9b1a5eff64e5ba055818550742e8c" style="width: 100.0%; height: 100.0%;">Cais de Sta. RIta - Viaduto das Cinco Pontas (...Câmera 192...)</div>')[0];
+                popup_9e4f5eccf2c54180a83743e67317f87f.setContent(html_28d9b1a5eff64e5ba055818550742e8c);
+            
+
+            marker_c00d7ca1fb6748c491d64ff606eea8bd.bindPopup(popup_9e4f5eccf2c54180a83743e67317f87f);
+
+            
+        
+    
+
+            var marker_7f5c93a690ac4a48bdbd136cca51d5a3 = L.marker(
+                [-8.041468,-34.903291],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_2385baaac5634d7cae39078627b54e2c);
+            
+    
+
+                var icon_a344757f0ece43c5ac701bc3f2159680 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_7f5c93a690ac4a48bdbd136cca51d5a3.setIcon(icon_a344757f0ece43c5ac701bc3f2159680);
+            
+    
+            var popup_46800cf5b6944511ba8190cd24e0db2f = L.popup({maxWidth: '300'});
+
+            
+                var html_7d76885543634857bac88e63fe775232 = $('<div id="html_7d76885543634857bac88e63fe775232" style="width: 100.0%; height: 100.0%;">Av. Rui Barbosa (...Câmera 193...)</div>')[0];
+                popup_46800cf5b6944511ba8190cd24e0db2f.setContent(html_7d76885543634857bac88e63fe775232);
+            
+
+            marker_7f5c93a690ac4a48bdbd136cca51d5a3.bindPopup(popup_46800cf5b6944511ba8190cd24e0db2f);
+
+            
+        
+    
+
+            var marker_bdfafd704d624812b74be74ffd5df5bb = L.marker(
+                [-8.075036,-34.885401],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_2385baaac5634d7cae39078627b54e2c);
+            
+    
+
+                var icon_130fef724b5a45cda20c6c219d9c9c28 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_bdfafd704d624812b74be74ffd5df5bb.setIcon(icon_130fef724b5a45cda20c6c219d9c9c28);
+            
+    
+            var popup_a30ef8f3c98d4cb9a581738e0c151cbc = L.popup({maxWidth: '300'});
+
+            
+                var html_273e3f46b720405d92cf37f4f1dd9bd9 = $('<div id="html_273e3f46b720405d92cf37f4f1dd9bd9" style="width: 100.0%; height: 100.0%;">Cais José Estelita Próx. à Lombada Eletrônica (...Câmera 194...)</div>')[0];
+                popup_a30ef8f3c98d4cb9a581738e0c151cbc.setContent(html_273e3f46b720405d92cf37f4f1dd9bd9);
+            
+
+            marker_bdfafd704d624812b74be74ffd5df5bb.bindPopup(popup_a30ef8f3c98d4cb9a581738e0c151cbc);
+
+            
+        
+    
+
+            var marker_a70b620721a840f8a7af1b77e52eaa36 = L.marker(
+                [-8.053153,-34.896709],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_2385baaac5634d7cae39078627b54e2c);
+            
+    
+
+                var icon_998d743d84e045b7bad13b24274aba18 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_a70b620721a840f8a7af1b77e52eaa36.setIcon(icon_998d743d84e045b7bad13b24274aba18);
+            
+    
+            var popup_cf237ee688004d95946d99371ac3d69c = L.popup({maxWidth: '300'});
+
+            
+                var html_474cdd1c971e4d639f22e3da73362aad = $('<div id="html_474cdd1c971e4d639f22e3da73362aad" style="width: 100.0%; height: 100.0%;">Av. Agamenon Magalhães c/ Rua Joaquim Nabuco (...Câmera 195...)</div>')[0];
+                popup_cf237ee688004d95946d99371ac3d69c.setContent(html_474cdd1c971e4d639f22e3da73362aad);
+            
+
+            marker_a70b620721a840f8a7af1b77e52eaa36.bindPopup(popup_cf237ee688004d95946d99371ac3d69c);
+
+            
+        
+    
+
+            var marker_a6f4dd7390b7438c801a428dd9e6eb24 = L.marker(
+                [-8.032467,-34.923375],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_2385baaac5634d7cae39078627b54e2c);
+            
+    
+
+                var icon_cd403778e85043dc96bb9cde5f13b38f = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_a6f4dd7390b7438c801a428dd9e6eb24.setIcon(icon_cd403778e85043dc96bb9cde5f13b38f);
+            
+    
+            var popup_3661ff989435400b8dd83cbdcec63377 = L.popup({maxWidth: '300'});
+
+            
+                var html_58df2b2f94204d9bae3cc5f1b6d886f1 = $('<div id="html_58df2b2f94204d9bae3cc5f1b6d886f1" style="width: 100.0%; height: 100.0%;">Av. 17 de Agosto - BarChef (...Câmera 196...)</div>')[0];
+                popup_3661ff989435400b8dd83cbdcec63377.setContent(html_58df2b2f94204d9bae3cc5f1b6d886f1);
+            
+
+            marker_a6f4dd7390b7438c801a428dd9e6eb24.bindPopup(popup_3661ff989435400b8dd83cbdcec63377);
+
+            
+        
+    
+
+            var marker_14a714f3c3964e5fbb92b54e3dad8427 = L.marker(
+                [-8.054322,-34.871936],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_2385baaac5634d7cae39078627b54e2c);
+            
+    
+
+                var icon_b0602c63cb1642d2a06d581b22443545 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_14a714f3c3964e5fbb92b54e3dad8427.setIcon(icon_b0602c63cb1642d2a06d581b22443545);
+            
+    
+            var popup_d556cb5b2ce64202b1392ccf89437368 = L.popup({maxWidth: '300'});
+
+            
+                var html_0edd236fe4ea4fd98dec15e50bc68f15 = $('<div id="html_0edd236fe4ea4fd98dec15e50bc68f15" style="width: 100.0%; height: 100.0%;">Cais do Apolo - Em frente à PCR (...Câmera 197...)</div>')[0];
+                popup_d556cb5b2ce64202b1392ccf89437368.setContent(html_0edd236fe4ea4fd98dec15e50bc68f15);
+            
+
+            marker_14a714f3c3964e5fbb92b54e3dad8427.bindPopup(popup_d556cb5b2ce64202b1392ccf89437368);
+
+            
+        
+    
+
+            var marker_ce1c201fd4bb4daf87182d50b505f206 = L.marker(
+                [-8.081941,-34.891417],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_2385baaac5634d7cae39078627b54e2c);
+            
+    
+
+                var icon_ca64ee73f4364f9a9eaece870bf5dc2d = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_ce1c201fd4bb4daf87182d50b505f206.setIcon(icon_ca64ee73f4364f9a9eaece870bf5dc2d);
+            
+    
+            var popup_6ebe7c2332664fc79f9db80278ef9d79 = L.popup({maxWidth: '300'});
+
+            
+                var html_855c3325a4f14c5faea972201e4753dc = $('<div id="html_855c3325a4f14c5faea972201e4753dc" style="width: 100.0%; height: 100.0%;">Via Mangue 1 - Ponte Paulo Guerra (...Câmera 200...)</div>')[0];
+                popup_6ebe7c2332664fc79f9db80278ef9d79.setContent(html_855c3325a4f14c5faea972201e4753dc);
+            
+
+            marker_ce1c201fd4bb4daf87182d50b505f206.bindPopup(popup_6ebe7c2332664fc79f9db80278ef9d79);
+
+            
+        
+    
+
+            var marker_688c2cadde3d49e9aa896c7ba59c330a = L.marker(
+                [-8.087608,-34.891334],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_2385baaac5634d7cae39078627b54e2c);
+            
+    
+
+                var icon_cd9e158a3b964ba38fff9fc3428fc509 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_688c2cadde3d49e9aa896c7ba59c330a.setIcon(icon_cd9e158a3b964ba38fff9fc3428fc509);
+            
+    
+            var popup_3e67242899aa4ebf9bf6c2df8e3328ec = L.popup({maxWidth: '300'});
+
+            
+                var html_2ff469456f124edc927bf326e910ac34 = $('<div id="html_2ff469456f124edc927bf326e910ac34" style="width: 100.0%; height: 100.0%;">Via Mangue 2 - Rio Mar (...Câmera 201...)</div>')[0];
+                popup_3e67242899aa4ebf9bf6c2df8e3328ec.setContent(html_2ff469456f124edc927bf326e910ac34);
+            
+
+            marker_688c2cadde3d49e9aa896c7ba59c330a.bindPopup(popup_3e67242899aa4ebf9bf6c2df8e3328ec);
+
+            
+        
+    
+
+            var marker_4d6a3dd391c94f68bccfa90fa25201d5 = L.marker(
+                [-8.095032,-34.892825],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_2385baaac5634d7cae39078627b54e2c);
+            
+    
+
+                var icon_447c52532cc4489289e109e210f815c9 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_4d6a3dd391c94f68bccfa90fa25201d5.setIcon(icon_447c52532cc4489289e109e210f815c9);
+            
+    
+            var popup_f09503baf0e44f7495786b7afe2949c1 = L.popup({maxWidth: '300'});
+
+            
+                var html_34d11f95b62c4dae81c9bc47f7a27131 = $('<div id="html_34d11f95b62c4dae81c9bc47f7a27131" style="width: 100.0%; height: 100.0%;">Via Mangue 3 - Aeroclube (...Câmera 202...)</div>')[0];
+                popup_f09503baf0e44f7495786b7afe2949c1.setContent(html_34d11f95b62c4dae81c9bc47f7a27131);
+            
+
+            marker_4d6a3dd391c94f68bccfa90fa25201d5.bindPopup(popup_f09503baf0e44f7495786b7afe2949c1);
+
+            
+        
+    
+
+            var marker_1c258eb609774fca95d7892d1b3e381d = L.marker(
+                [-8.104072,-34.890333],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_2385baaac5634d7cae39078627b54e2c);
+            
+    
+
+                var icon_1dec681c7cfb4e7f820965dc58aa44d8 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_1c258eb609774fca95d7892d1b3e381d.setIcon(icon_1dec681c7cfb4e7f820965dc58aa44d8);
+            
+    
+            var popup_78670aca488e4ce08eb6a6f2b6e4168c = L.popup({maxWidth: '300'});
+
+            
+                var html_aa7de3cc82704cd18c864d26787dba18 = $('<div id="html_aa7de3cc82704cd18c864d26787dba18" style="width: 100.0%; height: 100.0%;">Via Mangue 4 - Extra (...Câmera 203...)</div>')[0];
+                popup_78670aca488e4ce08eb6a6f2b6e4168c.setContent(html_aa7de3cc82704cd18c864d26787dba18);
+            
+
+            marker_1c258eb609774fca95d7892d1b3e381d.bindPopup(popup_78670aca488e4ce08eb6a6f2b6e4168c);
+
+            
+        
+    
+
+            var marker_72332dab6d6c4ceba8e0b5028bf2143d = L.marker(
+                [-8.109981,-34.899675],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_2385baaac5634d7cae39078627b54e2c);
+            
+    
+
+                var icon_57e7a8302c834a7da4656286d1c08a97 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_72332dab6d6c4ceba8e0b5028bf2143d.setIcon(icon_57e7a8302c834a7da4656286d1c08a97);
+            
+    
+            var popup_3c6bd033d572493e9819d7f770f49707 = L.popup({maxWidth: '300'});
+
+            
+                var html_f7afcb3cee1f4bc09d392418c67b54c7 = $('<div id="html_f7afcb3cee1f4bc09d392418c67b54c7" style="width: 100.0%; height: 100.0%;">Via Mangue 5 - Acesso Fernando S. Barbosa (...Câmera 204...)</div>')[0];
+                popup_3c6bd033d572493e9819d7f770f49707.setContent(html_f7afcb3cee1f4bc09d392418c67b54c7);
+            
+
+            marker_72332dab6d6c4ceba8e0b5028bf2143d.bindPopup(popup_3c6bd033d572493e9819d7f770f49707);
+
+            
+        
+    
+
+            var marker_9601e9917619412f8e1c1ccb6dd12539 = L.marker(
+                [-8.112545,-34.901797],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_2385baaac5634d7cae39078627b54e2c);
+            
+    
+
+                var icon_fb12347cdb8a481ab21b37452c3d9527 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_9601e9917619412f8e1c1ccb6dd12539.setIcon(icon_fb12347cdb8a481ab21b37452c3d9527);
+            
+    
+            var popup_750c40aa9d514998ab4fcdf62fe41747 = L.popup({maxWidth: '300'});
+
+            
+                var html_5dcbf61b72bd49c6b524fe69d2297ea9 = $('<div id="html_5dcbf61b72bd49c6b524fe69d2297ea9" style="width: 100.0%; height: 100.0%;">Via Mangue 6 - Antônio Falcão (...Câmera 205...)</div>')[0];
+                popup_750c40aa9d514998ab4fcdf62fe41747.setContent(html_5dcbf61b72bd49c6b524fe69d2297ea9);
+            
+
+            marker_9601e9917619412f8e1c1ccb6dd12539.bindPopup(popup_750c40aa9d514998ab4fcdf62fe41747);
+
+            
+        
+    
+            // FeatureGroup is to store editable layers.
+            var drawnItems = new L.featureGroup().addTo(map_6b1282e282e843c8b2f2bd149c31eca9);
+            var draw_control_186c26720f114e1ea0e5cc8b842f6940 = new L.Control.Draw({
+                "edit": {"featureGroup": drawnItems}
+                });
+            map_6b1282e282e843c8b2f2bd149c31eca9.addControl(draw_control_186c26720f114e1ea0e5cc8b842f6940);
+            map_6b1282e282e843c8b2f2bd149c31eca9.on(L.Draw.Event.CREATED, function (event) {
+              var layer = event.layer,
+                  type = event.layerType,
+                  coords;
+              var coords = JSON.stringify(layer.toGeoJSON());
+              layer.on('click', function() {
+                alert(coords);
+                console.log(coords);
+                });
+               drawnItems.addLayer(layer);
+             });
+            
+</script>
